@@ -5,6 +5,7 @@ public class NumberCreator : MonoBehaviour {
     [SerializeField] UnityEngine.Object numberPrefab;
     [SerializeField] int maxNumbers = 400;
 
+#if UNITY_EDITOR
     [ContextMenu("Create numbers")]
     public void GenerateNumbers() {
         for (int i = 0; i < maxNumbers; i++) {
@@ -17,4 +18,5 @@ public class NumberCreator : MonoBehaviour {
             Undo.RegisterCreatedObjectUndo(go, "Number creation");
         }
     }
+#endif
 }

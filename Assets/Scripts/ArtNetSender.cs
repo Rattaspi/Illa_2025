@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Sockets;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static UnityEngine.Rendering.DebugUI;
 
 public class ArtNetSender : MonoBehaviour {
     [Header("Destino Art-Net")]
@@ -13,7 +14,7 @@ public class ArtNetSender : MonoBehaviour {
     [SerializeField] int adress;
     //[SerializeField] byte value;
 
-    float frequency = 1.0f; // 1 oscilación por segundo
+    float frequency = 0.25f; // 1 oscilación por segundo
 
     void Start() {
         // Ejemplo: Enviar valor 255 al canal 1 (address 1) del universe 0
@@ -29,18 +30,51 @@ public class ArtNetSender : MonoBehaviour {
         }
     }
 
-    void Update() {
-        double seno = Math.Sin(2 * Math.PI * frequency * Time.time);
-        byte value = (byte)((seno + 1) / 2 * 254 + 1);
-        SendSingleDmxValue(adress, value);
-        SendSingleDmxValue(adress+3, value);
-        SendSingleDmxValue(adress+6, value);
+    void FixedUpdate() {
+        double sin = Math.Sin(2 * Math.PI * frequency * Time.time);
+        byte value = (byte)((sin + 1) / 2 * 254 + 1);
+
+
+        int[] adresses = { 1,2,3, 4,5,6, 7,8,9 };
+        byte[] values = { value, value, value, value, value, value, value, value, value };
+
+        //int[] adresses = { 1 };
+        //byte[] values = { value };
+        SendDmxPacket(adresses, values);
+
+        //SendSingleDmxValue(adress, value);
+        //SendSingleDmxValue(adress+3, value);
+        //SendSingleDmxValue(adress+6, value);
     }
 
     [ContextMenu("Blackout all")]
     void BlackoutAll() {
         for (int i = 1; i < 512; i++) {
             SendSingleDmxValue(i, 0);
+        }
+    }
+
+    public void SendDmxPacket(int[] adresses, byte[] values) {
+        byte[] dmxValues = new byte[512];
+
+
+        for (int i = 0; i < adresses.Length; i++) {
+            int adress = adresses[i];
+            byte value = values[i];
+
+            if (adress < 1 || adress > 512) {
+                Debug.LogError("Canal DMX fuera de rango (1-512).");
+                return;
+            }
+
+            dmxValues[adress - 1] = value; // array 0-indexed
+        }        
+
+        byte[] packet = BuildArtDmxPacket(universe, dmxValues);
+
+        using (UdpClient udp = new UdpClient()) {
+            udp.Send(packet, packet.Length,
+                     new IPEndPoint(IPAddress.Parse(targetIp), targetPort));
         }
     }
 
