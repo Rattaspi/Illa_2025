@@ -1039,12 +1039,20 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1435832822}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &199278408 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 199278407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &229002884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 921029427}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &257173878
 GameObject:
@@ -1121,6 +1129,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257173878}
   m_CullTransparentMesh: 1
+--- !u!1 &270694074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1131806266}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &339970037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1216,10 +1229,6 @@ PrefabInstance:
     - target: {fileID: 6567228549332258559, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
       propertyPath: m_text
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6567228549332258559, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
-      propertyPath: m_fontSize
-      value: 24
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1590,6 +1599,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &520234600 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 584260490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &546347967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1728582703}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &566376191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,13 +2014,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 584260496}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &584260491 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 584260490}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &584260492 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 584260490}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520234600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &584260496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520234600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 2023117443}
+  numberAnimator: {fileID: 584260492}
 --- !u!1 &611418854
 GameObject:
   m_ObjectHideFlags: 0
@@ -2138,6 +2185,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611418854}
   m_CullTransparentMesh: 1
+--- !u!1 &639478097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 836107708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &655708122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2391,6 +2443,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 669769865}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &669769868 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 669769865}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &711264874
 GameObject:
   m_ObjectHideFlags: 0
@@ -3130,13 +3193,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 836107714}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &836107709 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 836107708}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &836107710 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 836107708}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639478097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &836107714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639478097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 1710460006}
+  numberAnimator: {fileID: 836107710}
 --- !u!1 &843873241
 GameObject:
   m_ObjectHideFlags: 0
@@ -3447,7 +3538,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1578705391}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &885205332 stripped
 RectTransform:
@@ -3560,6 +3654,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 887762822}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &887762825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 887762822}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &921029427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3659,13 +3764,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 921029433}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &921029428 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 921029427}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &921029429 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 921029427}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229002884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &921029433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229002884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 2058026603}
+  numberAnimator: {fileID: 921029429}
 --- !u!1 &961531779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4204,13 +4337,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1131806272}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &1131806267 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 1131806266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1131806268 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1131806266}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270694074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1131806272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270694074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 2121730781}
+  numberAnimator: {fileID: 1131806268}
 --- !u!1 &1169124948
 GameObject:
   m_ObjectHideFlags: 0
@@ -4817,6 +4978,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1342053263}
   m_CullTransparentMesh: 1
+--- !u!114 &1353391017 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1176891823}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &1353875605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4912,7 +5084,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1835821138}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &1353875606 stripped
 RectTransform:
@@ -5100,6 +5275,47 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 1413417242}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1413417245 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1413417242}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!1 &1435832817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 199278407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1435832818 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 199278407}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435832817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1435832822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435832817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 887762825}
+  numberAnimator: {fileID: 1435832818}
 --- !u!1 &1441112133
 GameObject:
   m_ObjectHideFlags: 0
@@ -5212,6 +5428,11 @@ MonoBehaviour:
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!1 &1461024051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1695981660}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1482978563
 GameObject:
   m_ObjectHideFlags: 0
@@ -5385,6 +5606,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 576, y: 0}
   m_Pivot: {x: 0, y: 0.5}
+--- !u!1 &1506024902 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1869731548}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1524880124
 GameObject:
   m_ObjectHideFlags: 0
@@ -5556,7 +5782,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1810547406}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &1540426037 stripped
 RectTransform:
@@ -5598,7 +5827,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -74.7246, y: -74.7246}
+  m_SizeDelta: {x: -106, y: -106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1558473430
 MonoBehaviour:
@@ -5710,6 +5939,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578423531}
   m_CullTransparentMesh: 1
+--- !u!1 &1578705386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 885205331}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1578705387 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 885205331}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578705386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1578705391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578705386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 8654797984645878842}
+  numberAnimator: {fileID: 1578705387}
 --- !u!1 &1582719641
 GameObject:
   m_ObjectHideFlags: 0
@@ -5952,10 +6211,6 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
-    - target: {fileID: 6567228549332258559, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
-      propertyPath: m_fontSize
-      value: 145.8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5966,6 +6221,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 1632727526}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1632727529 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1632727526}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &1695981660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6068,13 +6334,52 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1558473429}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1695981666}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &1695981661 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 1695981660}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1695981662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1695981660}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461024051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1695981666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461024051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 669769868}
+  numberAnimator: {fileID: 1695981662}
+--- !u!114 &1710460006 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1008626655}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &1713478131
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6178,7 +6483,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1854558313}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &1713478132 stripped
 RectTransform:
@@ -6422,13 +6730,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1728582709}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &1728582704 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 1728582703}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1728582705 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1728582703}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546347967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1728582709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546347967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 1913508382}
+  numberAnimator: {fileID: 1728582705}
 --- !u!1 &1796250652
 GameObject:
   m_ObjectHideFlags: 0
@@ -6464,7 +6800,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -74.7246, y: -74.7246}
+  m_SizeDelta: {x: -107.6113, y: -107.6113}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796250654
 MonoBehaviour:
@@ -6504,6 +6840,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796250652}
   m_CullTransparentMesh: 1
+--- !u!1 &1810547401 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1540426036}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1810547402 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1540426036}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810547401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1810547406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810547401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 1413417245}
+  numberAnimator: {fileID: 1810547402}
 --- !u!1 &1818639864
 GameObject:
   m_ObjectHideFlags: 0
@@ -6640,6 +7006,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818639864}
   m_CullTransparentMesh: 1
+--- !u!1 &1835821133 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1353875605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1835821134 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1353875605}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835821133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1835821138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835821133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 1353391017}
+  numberAnimator: {fileID: 1835821134}
+--- !u!1 &1854558308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1713478131}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1854558309 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1713478131}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854558308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1854558313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854558308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 2097326454}
+  numberAnimator: {fileID: 1854558309}
 --- !u!1001 &1869731548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6745,13 +7171,41 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3346512606283324725, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1869731554}
   m_SourcePrefab: {fileID: 100100000, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
 --- !u!224 &1869731549 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 1869731548}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1869731550 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7000416122045501366, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1869731548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506024902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312e38527ed193740b7d789e5dfdd173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberAnimation
+--- !u!114 &1869731554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506024902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23bcd6e011947e743812a1d8a17bcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::KeypadNumberMirror
+  associatedButton: {fileID: 1632727529}
+  numberAnimator: {fileID: 1869731550}
 --- !u!1 &1879086583
 GameObject:
   m_ObjectHideFlags: 0
@@ -6799,7 +7253,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -6926,6 +7380,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 1913508379}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1913508382 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 1913508379}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1918297962
 GameObject:
   m_ObjectHideFlags: 0
@@ -7050,7 +7515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1981654388
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7244,6 +7709,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2018361332}
   m_CullTransparentMesh: 1
+--- !u!114 &2023117443 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 339970037}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &2046248822
 GameObject:
   m_ObjectHideFlags: 0
@@ -7262,7 +7738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2046248823
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7332,6 +7808,17 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &2058026603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 93712096}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &2097326451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7428,10 +7915,6 @@ PrefabInstance:
       propertyPath: m_text
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 6567228549332258559, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
-      propertyPath: m_fontSize
-      value: 145.8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7442,6 +7925,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 2097326451}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2097326454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 2097326451}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &2109652528
 GameObject:
   m_ObjectHideFlags: 0
@@ -7589,6 +8083,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 2121730778}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2121730781 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 2121730778}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &8654797984645878839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7687,6 +8192,10 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+    - target: {fileID: 6567228549332258559, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 125
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7697,6 +8206,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 414657913343979919, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
   m_PrefabInstance: {fileID: 8654797984645878839}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &8654797984645878842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3923501810548858230, guid: 42d34ecc6aeb4f341ad981da9d21005a, type: 3}
+  m_PrefabInstance: {fileID: 8654797984645878839}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
