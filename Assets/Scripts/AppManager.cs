@@ -21,6 +21,14 @@ public class AppManager : MonoBehaviour {
     [SerializeField] Gift gift;
     [SerializeField] GameObject blocker;
 
+    [Space(), BetterHeader("Touch Screen")]
+    [SerializeField] RectTransform sphereToTypeNumber;
+    [SerializeField] RectTransform[] triesSpheresDisplay;
+    [SerializeField] RectTransform playButton;
+
+    Vector3 originalSphereToTypeNumberPosition;
+    float playButtonXPositon;
+
     int numbersToChoose = 0;
 
     List<Number> selectedNumbers = new List<Number>();
@@ -41,6 +49,11 @@ public class AppManager : MonoBehaviour {
         waitingForGameStart = true;
 
         winningNumber = Random.Range(0, numbersParent.childCount) + 1;
+
+        playButtonXPositon = playButton.position.x;
+        playButton.position = new Vector3(0, playButton.position.y, playButton.position.z);
+
+        originalSphereToTypeNumberPosition = sphereToTypeNumber.position;
     }
 
     void Update() {
@@ -99,20 +112,32 @@ public class AppManager : MonoBehaviour {
     }
 
     void TransitionToGame() {
-        DOTween.Sequence()
-            .Append(presentationCanvasGroup.DOFade(0, 0.5f))
-            .AppendCallback(() => keyboardCanvasGroup.gameObject.SetActive(true))
-            .Append(gift.AppearAnimation())
-            .Append(keyboardCanvasGroup.DOFade(1, 0.5f));
+        Sequence gameStartSequence = DOTween.Sequence();
+        for (int i = 0; i < numbersToChoose; i++) {
+            triesSpheresDisplay[i].gameObject.SetActive(true);
+            gameStartSequence.Append(triesSpheresDisplay[i].GetComponent<CanvasGroup>().DOFade(1, 0.5f));
+        }
+        gameStartSequence.AppendInterval(0.5f)
+            .Append(triesSpheresDisplay[0].DOScale(4.8f, 1f).SetEase(Ease.OutQuad))
+            .Join(triesSpheresDisplay[0].DOMove(sphereToTypeNumber.position, 0.5f).SetEase(Ease.OutBack))
+            .Append(sphereToTypeNumber.GetComponent<CanvasGroup>().DOFade(1f, 0.5f))
+            .Append(triesSpheresDisplay[0].DOScale(0, 0.5f))
+            .AppendCallback(() => triesSpheresDisplay[0].gameObject.SetActive(false))
+            .Append(playButton.DOMoveX(playButtonXPositon, 0.5f).SetEase(Ease.OutBack))
+            .Append(triesSpheresDisplay[0].parent.DOMoveX(-150, 3f).SetRelative());
     }
 
-    public void NofitySelectedNumber(Number num) {
-        selectedNumbers.Add(num);
+    public void SelectNumber() {
+        DOTween.Sequence()
+            .Append(sphereToTypeNumber.DOMoveY(1000, 1f).SetRelative().SetEase(Ease.InBack))
+            .Join(sphereToTypeNumber.DOScale(0.5f, 1f));
 
-        NumberSphere numberSphere = ((GameObject)Instantiate(numberSpherePrefab, numberSpheresParent)).GetComponent<NumberSphere>();
-        Vector2 targetPositon = new Vector2(Screen.width / 6 * 5, (Screen.height / (numbersToChoose + 1)) * selectedNumbers.Count);
-        numberSphere.Init(num.GetNumberValue(), targetPositon);
-        selectedSpheres.Add(numberSphere);
+        //selectedNumbers.Add(num);
+
+        //NumberSphere numberSphere = ((GameObject)Instantiate(numberSpherePrefab, numberSpheresParent)).GetComponent<NumberSphere>();
+        //Vector2 targetPositon = new Vector2(Screen.width / 6 * 5, (Screen.height / (numbersToChoose + 1)) * selectedNumbers.Count);
+        //numberSphere.Init(num.GetNumberValue(), targetPositon);
+        //selectedSpheres.Add(numberSphere);
     }
 
     public bool CheckWinner() {
