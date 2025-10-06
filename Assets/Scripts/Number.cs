@@ -20,7 +20,7 @@ public class Number : MonoBehaviour {
 
     public void NofitySelectedNumber() {
         if (!selected) {
-            AppManager.instance.NofitySelectedNumber(this);
+            //AppManager.instance.NofitySelectedNumber(this);
             selected = true;
             TweenColor(selectedColor, 0.25f);
         }
