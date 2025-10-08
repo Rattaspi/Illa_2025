@@ -6,6 +6,8 @@ using UnityEngine.UIElements;
 using static UnityEngine.Rendering.DebugUI;
 
 public class ArtNetSender : MonoBehaviour {
+    public static ArtNetSender instance;
+
     [Header("Destino Art-Net")]
     public string targetIp = "192.168.1.50";   // IP de tu nodo Art-Net
     public int targetPort = 6454;              // Puerto estándar Art-Net
@@ -14,47 +16,56 @@ public class ArtNetSender : MonoBehaviour {
     [SerializeField] int adress;
     //[SerializeField] byte value;
 
-    float frequency = 0.25f; // 1 oscilación por segundo
+    int[] adresses = new int[0];
+    [SerializeField] byte[] values = new byte[0];
 
-    void Start() {
-        // Ejemplo: Enviar valor 255 al canal 1 (address 1) del universe 0
-        //SendSingleDmxValue(adress+1, 50);
-        //SendSingleDmxValue(adress+2, 50);
-        //SendSingleDmxValue(adress, 50);
-    }
+    //float frequency = 0.25f; // 1 oscilación por segundo
 
-    [ContextMenu("All white")]
-    void SetAllToWhite() {
-        for (int i = 1; i < 512; i++) {
-            SendSingleDmxValue(i, 50);
-        }
+    //[ContextMenu("All white")]
+    //void SetAllToWhite() {
+    //    for (int i = 1; i < 512; i++) {
+    //        SendSingleDmxValue(i, 50);
+    //    }
+    //}
+
+    void Awake() {
+        instance = this;
     }
 
     void FixedUpdate() {
-        double sin = Math.Sin(2 * Math.PI * frequency * Time.time);
-        byte value = (byte)((sin + 1) / 2 * 254 + 1);
+        SendDmxPacket(adresses, values);
+        //double sin = Math.Sin(2 * Math.PI * frequency * Time.time);
+        //byte value = (byte)((sin + 1) / 2 * 254 + 1);
 
 
-        int[] adresses = { 1,2,3, 4,5,6, 7,8,9 };
-        byte[] values = { value, value, value, value, value, value, value, value, value };
+        //int[] adresses = { 1,2,3, 4,5,6, 7,8,9 };
+        //byte[] values = { value, value, value, value, value, value, value, value, value };
 
         //int[] adresses = { 1 };
         //byte[] values = { value };
-        SendDmxPacket(adresses, values);
+        
 
         //SendSingleDmxValue(adress, value);
         //SendSingleDmxValue(adress+3, value);
         //SendSingleDmxValue(adress+6, value);
     }
 
-    [ContextMenu("Blackout all")]
-    void BlackoutAll() {
-        for (int i = 1; i < 512; i++) {
-            SendSingleDmxValue(i, 0);
-        }
+    //[ContextMenu("Blackout all")]
+    //void BlackoutAll() {
+    //    for (int i = 1; i < 512; i++) {
+    //        SendSingleDmxValue(i, 0);
+    //    }
+    //}
+
+    public void UpdatePacketInfo(int[] adresses, byte[] values) {
+        this.adresses = adresses;
+        this.values = values;
+    }
+    public void ForcePacketSend() {
+        SendDmxPacket(adresses, values);
     }
 
-    public void SendDmxPacket(int[] adresses, byte[] values) {
+    void SendDmxPacket(int[] adresses, byte[] values) {
         byte[] dmxValues = new byte[512];
 
 
@@ -78,30 +89,7 @@ public class ArtNetSender : MonoBehaviour {
         }
     }
 
-    /// <summary>
-    /// Envía un único valor DMX a un canal 1–512 del universo indicado.
-    /// </summary>
-    public void SendSingleDmxValue(int channel1Indexed, byte value) {
-        if (channel1Indexed < 1 || channel1Indexed > 512) {
-            Debug.LogError("Canal DMX fuera de rango (1-512).");
-            return;
-        }
-
-        // Crea el buffer DMX con todos los canales a 0 y el canal elegido a 'value'
-        byte[] dmx = new byte[channel1Indexed];
-        dmx[channel1Indexed - 1] = value; // array 0-indexed
-
-        byte[] packet = BuildArtDmxPacket(universe, dmx);
-
-        using (UdpClient udp = new UdpClient()) {
-            udp.Send(packet, packet.Length,
-                     new IPEndPoint(IPAddress.Parse(targetIp), targetPort));
-        }
-
-        Debug.Log($"Enviado valor {value} al canal {channel1Indexed} del universe {universe}");
-    }
-
-    private static byte[] BuildArtDmxPacket(ushort universe, byte[] dmxData) {
+    static byte[] BuildArtDmxPacket(ushort universe, byte[] dmxData) {
         byte[] id = System.Text.Encoding.ASCII.GetBytes("Art-Net\0");
         ushort opCode = 0x5000;       // OpDmx en little-endian
         ushort protVer = 14;          // Art-Net 4

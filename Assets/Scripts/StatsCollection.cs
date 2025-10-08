@@ -23,7 +23,7 @@ public class StatsCollection : MonoBehaviour {
     }
 
     void Start() {
-        AppManager.instance.onRevealEnd.AddListener(UpdateInfo);
+        AppManager.instance.onRevealStart.AddListener(UpdateInfo);
     }
 
     void UpdateInfo() {

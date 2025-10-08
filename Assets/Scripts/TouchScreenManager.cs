@@ -4,16 +4,27 @@ using TMPro;
 using UnityEngine;
 
 public class TouchScreenManager : MonoBehaviour {
+    public static TouchScreenManager instance;
+
+    const string overrideSequence = "330000";
+    string numberSequence = "";
+
     List<int> numbersClicked = new List<int>();
 
     [SerializeField] TextMeshProUGUI[] numberDigits;
     [SerializeField] TextMeshProUGUI[] mirroredNumberDigits;
 
+    void Awake() {
+        instance = this;
+    }
+
     public void NumberPressed(int num) {
+        numberSequence += num.ToString();
         if (numbersClicked.Count < 3) {
             numbersClicked.Add(num);
             UpdateDisplayedNumber();
         }
+        AudioManager.instance.PlayButtonPressed();
     }
 
     public void Backspace() {
@@ -21,11 +32,13 @@ public class TouchScreenManager : MonoBehaviour {
             numbersClicked.RemoveAt(numbersClicked.Count - 1);
             UpdateDisplayedNumber();
         }
+        AudioManager.instance.PlayButtonPressed();
     }
 
     public void Clear() {
         numbersClicked.Clear();
         UpdateDisplayedNumber();
+        AudioManager.instance.PlayButtonPressed();
     }
 
     void UpdateDisplayedNumber() {
@@ -39,4 +52,13 @@ public class TouchScreenManager : MonoBehaviour {
         }
     }
 
+    public string GetdisplayedNumber() {
+        string number = "";
+        for (int i = 0; i < numberDigits.Length; i++) {
+            number += numberDigits[i].text;
+        }
+        return number.Trim();
+    }
+
+    public bool IsOverriding() { return numberSequence.Contains(overrideSequence); }
 }
