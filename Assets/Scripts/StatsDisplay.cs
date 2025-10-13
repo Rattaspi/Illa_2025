@@ -19,7 +19,7 @@ public class StatsDisplay : MonoBehaviour {
     void Start() {
         statsDataRaw = StatsCollection.instance.GetStatsRawFileData();
         DeserializeData();
-        UpdateDisplayedInfo();
+        //UpdateDisplayedInfo();
 
         void DeserializeData() {
             statsDataRaw = statsDataRaw.Trim();

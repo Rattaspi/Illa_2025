@@ -411,7 +411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AppManager
   winningNumber: -1
-  maxNumbers: 350
+  maxNumbers: 425
   touchScreenCanvas: {fileID: 567716493}
   sphereToTypeNumber: {fileID: 843873242}
   triesSpheresDisplay:
@@ -440,6 +440,7 @@ MonoBehaviour:
   - {fileID: 1312369859}
   loseMessages:
   - {fileID: 1777552856}
+  - {fileID: 942879940}
   onRevealStart:
     m_PersistentCalls:
       m_Calls: []
@@ -1963,8 +1964,8 @@ CanvasGroup:
   m_GameObject: {fileID: 205926201}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &205926204
 MonoBehaviour:
@@ -3982,9 +3983,9 @@ RectTransform:
   - {fileID: 726927062}
   - {fileID: 2046248823}
   - {fileID: 74536782}
-  - {fileID: 1981654388}
   - {fileID: 1194926610}
   - {fileID: 942879939}
+  - {fileID: 1981654388}
   - {fileID: 1120495110}
   - {fileID: 205926202}
   - {fileID: 737563473}
@@ -8011,7 +8012,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 118}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1164692497
@@ -8034,7 +8035,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4dc2cd0fd49719649aa3235f8b3bcb31, type: 3}
+  m_Sprite: {fileID: 4795298906171028346, guid: 4e93d54c90ebf5d439d29e983d21852a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -8704,13 +8705,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1250223381}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7132504, w: 0.7009094}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1190038228}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 91}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 31.900024}
@@ -9016,13 +9017,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1305334192}
-  m_LocalRotation: {x: -0, y: -0, z: 0.010192219, w: 0.99994814}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1190038228}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.168}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -2.1658, y: 0}
@@ -12217,7 +12218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VideoManager
   player: {fileID: 1879086584}
-  startClip: {fileID: 32900000, guid: b230fed48e6351847817d70b0d9371fc, type: 3}
+  startClip: {fileID: 32900000, guid: 460c4120b32f9bb49a29ebc1d060a7d8, type: 3}
   loopClip: {fileID: 32900000, guid: c4920915486e32f4b8c61b82c18cd86e, type: 3}
   endClip: {fileID: 32900000, guid: 6274cb8d54f3c664d818c4f72e2df740, type: 3}
 --- !u!1 &1883013685
@@ -12933,7 +12934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1981654388
 RectTransform:
   m_ObjectHideFlags: 0

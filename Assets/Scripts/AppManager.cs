@@ -54,12 +54,15 @@ public class AppManager : MonoBehaviour {
 
     bool waitingForGameStart = false;
     bool runningGame = false;
-    bool waitingForRevealInput = false;
 
     [HideInInspector] public UnityEvent onRevealStart = new UnityEvent();
 
     void Awake() {
         instance = this;
+#if !UNITY_EDITOR
+        Display.displays[0].Activate();
+        Display.displays[1].Activate();
+#endif
     }
 
     void Start() {
@@ -107,15 +110,6 @@ public class AppManager : MonoBehaviour {
         if (runningGame) {
             if (selectedNumbers.Count == numbersToChoose) {
                 runningGame = false;
-                waitingForRevealInput = true;
-            }
-        }
-
-        // REVEAL INPUT
-        if (waitingForRevealInput) {
-            if (Keyboard.current.spaceKey.wasPressedThisFrame) {
-                blocker.SetActive(true);
-                waitingForRevealInput = false;
                 PlayRevealSequence();
             }
         }
@@ -206,13 +200,16 @@ public class AppManager : MonoBehaviour {
     }
 
     void PlayRevealSequence() {
+        if (TouchScreenManager.instance.IsOverriding()) { winningNumber = selectedNumbers[0]; }
+
         onRevealStart.Invoke();
 
-        if (TouchScreenManager.instance.IsOverriding()) { winningNumber = selectedNumbers[0]; }
         winnerSphere.GetChild(0).GetComponent<TextMeshProUGUI>().text = GetWinnerNumberValue().ToString();
         LightManager.instance.TriggerOpenGift();
 
         Sequence revealSequence = DOTween.Sequence();
+        revealSequence.PrependCallback(() => blocker.SetActive(true));
+        revealSequence.PrependInterval(1.5f);
 
         // LED SCREEN 1
         revealSequence.Append(dummyWinnerSphere.DOScale(0.1f, 0.25f).From())
