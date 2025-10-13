@@ -1,9 +1,8 @@
 using System;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using UnityEngine;
-using UnityEngine.UIElements;
-using static UnityEngine.Rendering.DebugUI;
 
 public class ArtNetSender : MonoBehaviour {
     public static ArtNetSender instance;
@@ -13,49 +12,30 @@ public class ArtNetSender : MonoBehaviour {
     public int targetPort = 6454;              // Puerto estándar Art-Net
     public ushort universe = 0;                // Universe DMX (0 por defecto)
 
-    [SerializeField] int adress;
-    //[SerializeField] byte value;
 
     int[] adresses = new int[0];
     [SerializeField] byte[] values = new byte[0];
 
-    //float frequency = 0.25f; // 1 oscilación por segundo
-
-    //[ContextMenu("All white")]
-    //void SetAllToWhite() {
-    //    for (int i = 1; i < 512; i++) {
-    //        SendSingleDmxValue(i, 50);
-    //    }
-    //}
 
     void Awake() {
         instance = this;
     }
 
-    void FixedUpdate() {
-        SendDmxPacket(adresses, values);
-        //double sin = Math.Sin(2 * Math.PI * frequency * Time.time);
-        //byte value = (byte)((sin + 1) / 2 * 254 + 1);
-
-
-        //int[] adresses = { 1,2,3, 4,5,6, 7,8,9 };
-        //byte[] values = { value, value, value, value, value, value, value, value, value };
-
-        //int[] adresses = { 1 };
-        //byte[] values = { value };
-        
-
-        //SendSingleDmxValue(adress, value);
-        //SendSingleDmxValue(adress+3, value);
-        //SendSingleDmxValue(adress+6, value);
+    void Start() {
+        string configFilePath = Path.Combine(Application.streamingAssetsPath, "config.txt");
+        if (File.Exists(configFilePath)) {
+            string[] configLines = File.ReadAllLines(configFilePath);
+            for (int i = 0; i < configLines.Length; i++) {
+                string[] lineItems = configLines[i].Split(':');
+                if (lineItems[0] == "artnet-ip") { targetIp = lineItems[1]; }
+                else if (lineItems[0] == "artnet-universe") { universe = ushort.Parse(lineItems[1]); }
+            }
+        }
     }
 
-    //[ContextMenu("Blackout all")]
-    //void BlackoutAll() {
-    //    for (int i = 1; i < 512; i++) {
-    //        SendSingleDmxValue(i, 0);
-    //    }
-    //}
+    void FixedUpdate() {
+        SendDmxPacket(adresses, values);
+    }
 
     public void UpdatePacketInfo(int[] adresses, byte[] values) {
         this.adresses = adresses;
