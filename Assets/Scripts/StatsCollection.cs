@@ -3,12 +3,6 @@ using System.IO;
 using System;
 
 public class StatsCollection : MonoBehaviour {
-    /*
-     * TODO
-     * Hacer un fichero para guardar la informacion por cada sesion y listarlos todos en raw
-     * Hacer display para mostrar la info por dia
-     */
-
     public static StatsCollection instance;
 
     int selectionAmount;
@@ -20,10 +14,18 @@ public class StatsCollection : MonoBehaviour {
     void Awake() {
         instance = this;
         filepath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+
+        if (!File.Exists(Path.Combine(filepath, filename_stats))) {
+            File.WriteAllText(Path.Combine(filepath, filename_stats), "1: 0\n" +
+                "2: 0\n" +
+                "3: 0\n" +
+                "4: 0");
+        }
     }
 
     void Start() {
         AppManager.instance.onRevealStart.AddListener(UpdateInfo);
+
     }
 
     void UpdateInfo() {
@@ -33,9 +35,9 @@ public class StatsCollection : MonoBehaviour {
         string[] splittedFileStatsData = originalFileStatsData.Split("\n");
 
         int numbersToChoose = AppManager.instance.GetNumbersToChoose();
-        string[] splittedLineToEdit = splittedFileStatsData[numbersToChoose].Split(": ");
+        string[] splittedLineToEdit = splittedFileStatsData[numbersToChoose-1].Split(": ");
         splittedLineToEdit[1] = (int.Parse(splittedLineToEdit[1]) + 1).ToString();
-        splittedFileStatsData[numbersToChoose] = splittedLineToEdit[0] + ": " + splittedLineToEdit[1];
+        splittedFileStatsData[numbersToChoose-1] = splittedLineToEdit[0] + ": " + splittedLineToEdit[1];
 
         WriteToFile(filename_stats, string.Join('\n', splittedFileStatsData));
 
