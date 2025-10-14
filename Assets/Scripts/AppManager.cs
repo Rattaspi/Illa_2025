@@ -1,11 +1,13 @@
 using DG.Tweening;
 using Sortify;
 using System.Collections.Generic;
+using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using static UnityEngine.GraphicsBuffer;
 
 public class AppManager : MonoBehaviour {
     public static AppManager instance;
@@ -74,7 +76,17 @@ public class AppManager : MonoBehaviour {
         playButton.position = new Vector3(0, playButton.position.y, playButton.position.z);
 
         originalSphereToTypeNumberPosition = sphereToTypeNumber.position;
+
+        string configFilePath = Path.Combine(Application.streamingAssetsPath, "config.txt");
+        if (File.Exists(configFilePath)) {
+            string[] configLines = File.ReadAllLines(configFilePath);
+            for (int i = 0; i < configLines.Length; i++) {
+                string[] lineItems = configLines[i].Split(':');
+                if (lineItems[0] == "gameplay-maxnumbers") { maxNumbers = int.Parse(lineItems[1]); }
+            }
+        }
     }
+
 
     void Update() {
         // Game start
