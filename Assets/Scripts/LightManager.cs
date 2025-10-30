@@ -25,14 +25,20 @@ public class LightManager : MonoBehaviour {
     }
 
     void Update() {
-        byte[] values = {(byte)(screen1ColorImage.color.r * 254f), (byte)(screen1ColorImage.color.g * 254f), (byte)(screen1ColorImage.color.b * 254f),
-            (byte)(screen2ColorImage.color.r * 254f), (byte)(screen2ColorImage.color.g * 254f), (byte)(screen2ColorImage.color.b * 254f),
-            (byte)(screen3ColorImage.color.r * 254f), (byte)(screen3ColorImage.color.g * 254f), (byte)(screen3ColorImage.color.b * 254f)};
+        byte[] values = {(byte)(screen1ColorImage.color.g * 254f), (byte)(screen1ColorImage.color.r * 254f), (byte)(screen1ColorImage.color.b * 254f),
+            (byte)(screen2ColorImage.color.g * 254f), (byte)(screen2ColorImage.color.r * 254f), (byte)(screen2ColorImage.color.b * 254f),
+            (byte)(screen3ColorImage.color.g * 254f), (byte)(screen3ColorImage.color.r * 254f), (byte)(screen3ColorImage.color.b * 254f)};
 
         ArtNetSender.instance.UpdatePacketInfo(adresses, values);
     }
 
     void OnDisable() {
+        byte[] values = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        ArtNetSender.instance.UpdatePacketInfo(adresses, values);
+        ArtNetSender.instance.ForcePacketSend();
+    }
+
+    void OnDestroy() {
         byte[] values = { 0, 0, 0, 0, 0, 0, 0, 0, 0 };
         ArtNetSender.instance.UpdatePacketInfo(adresses, values);
         ArtNetSender.instance.ForcePacketSend();
