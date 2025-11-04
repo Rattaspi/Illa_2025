@@ -200,13 +200,17 @@ public class AppManager_Final : MonoBehaviour {
             yield return new WaitForSeconds(1f);
 
             // Animate the number to the center of the screen
+            Vector3 originalNumberPosition = orderedNumbersForReveal[0].GetComponent<RectTransform>().position;
+            Vector3 originalNumberScale = orderedNumbersForReveal[0].GetComponent<RectTransform>().localScale;
+
             orderedNumbersForReveal[0].Deselect();
             orderedNumbersForReveal[0].transform.parent = orderedNumbersForReveal[0].transform.parent.parent;
 
+
             yield return DOTween.Sequence()
                 .Append(orderedNumbersForReveal[0].GetComponent<RectTransform>().DOMove(new Vector3(Screen.width / 2, Screen.height / 2, 0), 0.5f))
-                .AppendInterval(0.5f)
-                .Append(orderedNumbersForReveal[0].GetComponent<RectTransform>().DOScale(8.35f, 1f).SetEase(Ease.OutBack));
+                .Join(orderedNumbersForReveal[0].GetComponent<RectTransform>().DOScale(3f, 1f).SetEase(Ease.OutBack));
+                
 
             yield return new WaitForSeconds(3.5f);
 
@@ -222,7 +226,13 @@ public class AppManager_Final : MonoBehaviour {
                 AudioManager.instance.PlayLose();
 
                 yield return new WaitForSeconds(3f);
-                yield return orderedNumbersForReveal[0].GetComponent<CanvasGroup>().DOFade(0, 0.5f);
+
+                // Get revealed number back to its original posititon
+                yield return DOTween.Sequence()
+                    .Append(orderedNumbersForReveal[0].GetComponent<RectTransform>().DOMove(originalNumberPosition, 0.5f))
+                    .Join(orderedNumbersForReveal[0].GetComponent<RectTransform>().DOScale(originalNumberScale, 0.5f))
+                    .Join(orderedNumbersForReveal[0].GetComponent<CanvasGroup>().DOFade(0.4f, 0.5f))
+                    .AppendCallback(() => orderedNumbersForReveal[0].transform.parent = selectedNumbersParent);
             }
 
             yield return new WaitForSeconds(3f);
@@ -304,6 +314,7 @@ public class AppManager_Final : MonoBehaviour {
         orderedNumbersForReveal[0].GetComponent<CanvasGroup>().DOFade(0, 0.5f);
         orderedNumbersForReveal[1].GetComponent<RectTransform>().DOMove(new Vector3(Screen.width / 2, Screen.height / 2, 0), 0.5f);
         orderedNumbersForReveal[1].GetComponent<RectTransform>().DOScale(8.35f, 1f).SetEase(Ease.OutBack);
+        orderedNumbersForReveal[1].transform.parent = selectedNumbersParent.parent;
     }
 
     public List<NumberForFinal> Shuffle(List<NumberForFinal> list) {
