@@ -1022,7 +1022,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151700549}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 3c4f262d2ea00be4c85daa613c78bd5b, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7be6f9f9d4542d846803c46a61411e59, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6890,9 +6890,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VideoManager
   player: {fileID: 1879086584}
-  startClip: {fileID: 32900000, guid: 460c4120b32f9bb49a29ebc1d060a7d8, type: 3}
-  loopClip: {fileID: 32900000, guid: c4920915486e32f4b8c61b82c18cd86e, type: 3}
-  endClip: {fileID: 32900000, guid: 6274cb8d54f3c664d818c4f72e2df740, type: 3}
+  startClip: {fileID: 32900000, guid: f886d40c6dab85345bfc5ea055701526, type: 3}
+  loopClip: {fileID: 32900000, guid: 4aff39a42e02b4f4b8a6aa46c6fc00be, type: 3}
+  endClip: {fileID: 32900000, guid: d5903ea971247ff46acb24ae6255f78e, type: 3}
 --- !u!1 &1880987720
 GameObject:
   m_ObjectHideFlags: 0
