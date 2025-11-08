@@ -16,6 +16,7 @@ public class LightManager : MonoBehaviour {
     const string OPEN_GIFT_ANIMTRIGGER = "OpenGift";
     const string WIN_ANIMTRIGGER = "Win";
     const string LOSE_ANIMTRIGGER = "Lose";
+    const string ROULETTE = "Roulette";
 
 
     readonly int[] adresses = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -48,4 +49,5 @@ public class LightManager : MonoBehaviour {
     public void TriggerOpenGift() { dmxSceneAnimator.SetTrigger(OPEN_GIFT_ANIMTRIGGER); }
     public void TriggerWin() { dmxSceneAnimator.SetTrigger(WIN_ANIMTRIGGER); }
     public void TriggerLose() { dmxSceneAnimator.SetTrigger(LOSE_ANIMTRIGGER); }
+    public void TriggerRoulette() { dmxSceneAnimator.SetTrigger(ROULETTE); }
 }

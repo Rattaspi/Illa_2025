@@ -1,0 +1,5421 @@
+fileFormatVersion: 2
+guid: a6239394bd6416b43916099a50e73a79
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 588223659027862185
+    second: screen-RIGHT-LOOP033_0
+  - first:
+      213: 4342872815119001472
+    second: screen-RIGHT-LOOP033_1
+  - first:
+      213: -8679758841984094067
+    second: screen-RIGHT-LOOP033_2
+  - first:
+      213: -1073636677778525705
+    second: screen-RIGHT-LOOP033_3
+  - first:
+      213: -3457152858781614527
+    second: screen-RIGHT-LOOP033_4
+  - first:
+      213: -9056286171061492041
+    second: screen-RIGHT-LOOP033_5
+  - first:
+      213: 276578555758442591
+    second: screen-RIGHT-LOOP033_6
+  - first:
+      213: 539391319891866191
+    second: screen-RIGHT-LOOP033_7
+  - first:
+      213: 2955348331827459642
+    second: screen-RIGHT-LOOP033_8
+  - first:
+      213: 3532126740430264125
+    second: screen-RIGHT-LOOP033_9
+  - first:
+      213: 6528707270640274821
+    second: screen-RIGHT-LOOP033_10
+  - first:
+      213: -5972774248851152304
+    second: screen-RIGHT-LOOP033_11
+  - first:
+      213: 5228701050546747742
+    second: screen-RIGHT-LOOP033_12
+  - first:
+      213: -8628470611605295729
+    second: screen-RIGHT-LOOP033_13
+  - first:
+      213: -3181174602116115251
+    second: screen-RIGHT-LOOP033_14
+  - first:
+      213: -3551862262923629861
+    second: screen-RIGHT-LOOP033_15
+  - first:
+      213: -647110182586776870
+    second: screen-RIGHT-LOOP033_16
+  - first:
+      213: 4836578063780746765
+    second: screen-RIGHT-LOOP033_17
+  - first:
+      213: 6622522464465152613
+    second: screen-RIGHT-LOOP033_18
+  - first:
+      213: -1548846190915611995
+    second: screen-RIGHT-LOOP033_19
+  - first:
+      213: -2347784487875660541
+    second: screen-RIGHT-LOOP033_20
+  - first:
+      213: 7714624507167929401
+    second: screen-RIGHT-LOOP033_21
+  - first:
+      213: -2716403149601784204
+    second: screen-RIGHT-LOOP033_22
+  - first:
+      213: 3142009263233551463
+    second: screen-RIGHT-LOOP033_23
+  - first:
+      213: 3426224513611417105
+    second: screen-RIGHT-LOOP033_24
+  - first:
+      213: 879270219702599450
+    second: screen-RIGHT-LOOP033_25
+  - first:
+      213: -6001601292525781436
+    second: screen-RIGHT-LOOP033_26
+  - first:
+      213: 8191565940794043619
+    second: screen-RIGHT-LOOP033_27
+  - first:
+      213: 761127256040176591
+    second: screen-RIGHT-LOOP033_28
+  - first:
+      213: -7983257561488320656
+    second: screen-RIGHT-LOOP033_29
+  - first:
+      213: 1067267547050078287
+    second: screen-RIGHT-LOOP033_30
+  - first:
+      213: 1702389108279341973
+    second: screen-RIGHT-LOOP033_31
+  - first:
+      213: 4448213056738985581
+    second: screen-RIGHT-LOOP033_32
+  - first:
+      213: -6727625503507589563
+    second: screen-RIGHT-LOOP033_33
+  - first:
+      213: -6888590029374375864
+    second: screen-RIGHT-LOOP033_34
+  - first:
+      213: -3998080091497891729
+    second: screen-RIGHT-LOOP033_35
+  - first:
+      213: 7559560725862417198
+    second: screen-RIGHT-LOOP033_36
+  - first:
+      213: -3651134283122229238
+    second: screen-RIGHT-LOOP033_37
+  - first:
+      213: 663251933648553963
+    second: screen-RIGHT-LOOP033_38
+  - first:
+      213: 1995572193821782610
+    second: screen-RIGHT-LOOP033_39
+  - first:
+      213: 8652366795547560992
+    second: screen-RIGHT-LOOP033_40
+  - first:
+      213: -5174391938614758949
+    second: screen-RIGHT-LOOP033_41
+  - first:
+      213: 6234251660426166955
+    second: screen-RIGHT-LOOP033_42
+  - first:
+      213: -9006535831647875972
+    second: screen-RIGHT-LOOP033_43
+  - first:
+      213: 5939735059700274865
+    second: screen-RIGHT-LOOP033_44
+  - first:
+      213: 625387148672214349
+    second: screen-RIGHT-LOOP033_45
+  - first:
+      213: -4138393383630222160
+    second: screen-RIGHT-LOOP033_46
+  - first:
+      213: -1714700432706429762
+    second: screen-RIGHT-LOOP033_47
+  - first:
+      213: -8351705887952841406
+    second: screen-RIGHT-LOOP033_48
+  - first:
+      213: -5520753160468511124
+    second: screen-RIGHT-LOOP033_49
+  - first:
+      213: 4748483043414332249
+    second: screen-RIGHT-LOOP033_50
+  - first:
+      213: -7570841253939804742
+    second: screen-RIGHT-LOOP033_51
+  - first:
+      213: -3604639885191122324
+    second: screen-RIGHT-LOOP033_52
+  - first:
+      213: -2817118349730965202
+    second: screen-RIGHT-LOOP033_53
+  - first:
+      213: 1184385813891181558
+    second: screen-RIGHT-LOOP033_54
+  - first:
+      213: -247233549639520452
+    second: screen-RIGHT-LOOP033_55
+  - first:
+      213: -6660438787587689528
+    second: screen-RIGHT-LOOP033_56
+  - first:
+      213: 6263344763563417825
+    second: screen-RIGHT-LOOP033_57
+  - first:
+      213: 4036223945139413007
+    second: screen-RIGHT-LOOP033_58
+  - first:
+      213: -1823980620813114790
+    second: screen-RIGHT-LOOP033_59
+  - first:
+      213: -2885143026019936729
+    second: screen-RIGHT-LOOP033_60
+  - first:
+      213: 5782363180081886984
+    second: screen-RIGHT-LOOP033_61
+  - first:
+      213: 6211438762512516860
+    second: screen-RIGHT-LOOP033_62
+  - first:
+      213: 869194857845075803
+    second: screen-RIGHT-LOOP033_63
+  - first:
+      213: -7536974717984949119
+    second: screen-RIGHT-LOOP033_64
+  - first:
+      213: -7699273453663851483
+    second: screen-RIGHT-LOOP033_65
+  - first:
+      213: -4811585130510662218
+    second: screen-RIGHT-LOOP033_66
+  - first:
+      213: -2971236695074986864
+    second: screen-RIGHT-LOOP033_67
+  - first:
+      213: -2841285753695403744
+    second: screen-RIGHT-LOOP033_68
+  - first:
+      213: -4120054164575457010
+    second: screen-RIGHT-LOOP033_69
+  - first:
+      213: 7854908635917020994
+    second: screen-RIGHT-LOOP033_70
+  - first:
+      213: 6458504426576634642
+    second: screen-RIGHT-LOOP033_71
+  - first:
+      213: 2457756223456468694
+    second: screen-RIGHT-LOOP033_72
+  - first:
+      213: -4967390339456867291
+    second: screen-RIGHT-LOOP033_73
+  - first:
+      213: -8991826576137933534
+    second: screen-RIGHT-LOOP033_74
+  - first:
+      213: -9119987748329778102
+    second: screen-RIGHT-LOOP033_75
+  - first:
+      213: -6676562741380202722
+    second: screen-RIGHT-LOOP033_76
+  - first:
+      213: -454559199662695972
+    second: screen-RIGHT-LOOP033_77
+  - first:
+      213: 1551026768276030079
+    second: screen-RIGHT-LOOP033_78
+  - first:
+      213: -8035170614558790681
+    second: screen-RIGHT-LOOP033_79
+  - first:
+      213: -479071531330666081
+    second: screen-RIGHT-LOOP033_80
+  - first:
+      213: 495235605488884953
+    second: screen-RIGHT-LOOP033_81
+  - first:
+      213: 7518763931919373906
+    second: screen-RIGHT-LOOP033_82
+  - first:
+      213: 7086734066079764910
+    second: screen-RIGHT-LOOP033_83
+  - first:
+      213: -2992122663716697896
+    second: screen-RIGHT-LOOP033_84
+  - first:
+      213: 2600474279797716445
+    second: screen-RIGHT-LOOP033_85
+  - first:
+      213: 3018844992007510860
+    second: screen-RIGHT-LOOP033_86
+  - first:
+      213: 1142345229942193928
+    second: screen-RIGHT-LOOP033_87
+  - first:
+      213: -6119699375927468446
+    second: screen-RIGHT-LOOP033_88
+  - first:
+      213: 3848129588346591057
+    second: screen-RIGHT-LOOP033_89
+  - first:
+      213: 8883747175328832969
+    second: screen-RIGHT-LOOP033_90
+  - first:
+      213: 4895550313773223985
+    second: screen-RIGHT-LOOP033_91
+  - first:
+      213: 7704554082318727058
+    second: screen-RIGHT-LOOP033_92
+  - first:
+      213: -6464182064905427190
+    second: screen-RIGHT-LOOP033_93
+  - first:
+      213: -2312710536527990245
+    second: screen-RIGHT-LOOP033_94
+  - first:
+      213: -5107946951626953085
+    second: screen-RIGHT-LOOP033_95
+  - first:
+      213: 7296320793605487351
+    second: screen-RIGHT-LOOP033_96
+  - first:
+      213: 8823754560890980349
+    second: screen-RIGHT-LOOP033_97
+  - first:
+      213: 5451913163868442258
+    second: screen-RIGHT-LOOP033_98
+  - first:
+      213: 7821080047651628691
+    second: screen-RIGHT-LOOP033_99
+  - first:
+      213: -4701140118755462913
+    second: screen-RIGHT-LOOP033_100
+  - first:
+      213: 5697147684552635565
+    second: screen-RIGHT-LOOP033_101
+  - first:
+      213: -1645994928081214614
+    second: screen-RIGHT-LOOP033_102
+  - first:
+      213: -1220844274872920447
+    second: screen-RIGHT-LOOP033_103
+  - first:
+      213: 6046545873531935326
+    second: screen-RIGHT-LOOP033_104
+  - first:
+      213: 3524933221776104706
+    second: screen-RIGHT-LOOP033_105
+  - first:
+      213: -8154030286668806349
+    second: screen-RIGHT-LOOP033_106
+  - first:
+      213: -1961524646629346795
+    second: screen-RIGHT-LOOP033_107
+  - first:
+      213: -3734741835601082307
+    second: screen-RIGHT-LOOP033_108
+  - first:
+      213: 986474765287432067
+    second: screen-RIGHT-LOOP033_109
+  - first:
+      213: 6079293004507358697
+    second: screen-RIGHT-LOOP033_110
+  - first:
+      213: 960061996345351806
+    second: screen-RIGHT-LOOP033_111
+  - first:
+      213: 5067856733789467835
+    second: screen-RIGHT-LOOP033_112
+  - first:
+      213: 1789332722520042142
+    second: screen-RIGHT-LOOP033_113
+  - first:
+      213: -5201071055478888673
+    second: screen-RIGHT-LOOP033_114
+  - first:
+      213: 607014547248284417
+    second: screen-RIGHT-LOOP033_115
+  - first:
+      213: -6733794062611014635
+    second: screen-RIGHT-LOOP033_116
+  - first:
+      213: -7189763454505115878
+    second: screen-RIGHT-LOOP033_117
+  - first:
+      213: -2854690755158176427
+    second: screen-RIGHT-LOOP033_118
+  - first:
+      213: -4100430685418416516
+    second: screen-RIGHT-LOOP033_119
+  - first:
+      213: 4628159717223824679
+    second: screen-RIGHT-LOOP033_120
+  - first:
+      213: -751370493800861691
+    second: screen-RIGHT-LOOP033_121
+  - first:
+      213: 279968248418459770
+    second: screen-RIGHT-LOOP033_122
+  - first:
+      213: 4825114731305126115
+    second: screen-RIGHT-LOOP033_123
+  - first:
+      213: 7049855279739607346
+    second: screen-RIGHT-LOOP033_124
+  - first:
+      213: -5803327163239737840
+    second: screen-RIGHT-LOOP033_125
+  - first:
+      213: -5827014131969856337
+    second: screen-RIGHT-LOOP033_126
+  - first:
+      213: 2547866075429714494
+    second: screen-RIGHT-LOOP033_127
+  - first:
+      213: 8012544015825706667
+    second: screen-RIGHT-LOOP033_128
+  - first:
+      213: 7813409648694058750
+    second: screen-RIGHT-LOOP033_129
+  - first:
+      213: -7892447596845078544
+    second: screen-RIGHT-LOOP033_130
+  - first:
+      213: -4315793221537883445
+    second: screen-RIGHT-LOOP033_131
+  - first:
+      213: 2124775095783184988
+    second: screen-RIGHT-LOOP033_132
+  - first:
+      213: 1551048568730572833
+    second: screen-RIGHT-LOOP033_133
+  - first:
+      213: 3001592153378365976
+    second: screen-RIGHT-LOOP033_134
+  - first:
+      213: 4898216551407279121
+    second: screen-RIGHT-LOOP033_135
+  - first:
+      213: 3281526911469566729
+    second: screen-RIGHT-LOOP033_136
+  - first:
+      213: -639609975821364236
+    second: screen-RIGHT-LOOP033_137
+  - first:
+      213: -8535078023371021832
+    second: screen-RIGHT-LOOP033_138
+  - first:
+      213: 6237300343364551871
+    second: screen-RIGHT-LOOP033_139
+  - first:
+      213: -271768589030515170
+    second: screen-RIGHT-LOOP033_140
+  - first:
+      213: 4964593549652386157
+    second: screen-RIGHT-LOOP033_141
+  - first:
+      213: 3616957683091546938
+    second: screen-RIGHT-LOOP033_142
+  - first:
+      213: 4964809993981639628
+    second: screen-RIGHT-LOOP033_143
+  - first:
+      213: 4277920943178373560
+    second: screen-RIGHT-LOOP033_144
+  - first:
+      213: 7144388057795767198
+    second: screen-RIGHT-LOOP033_145
+  - first:
+      213: -4316130358055063630
+    second: screen-RIGHT-LOOP033_146
+  - first:
+      213: -5333889828867876545
+    second: screen-RIGHT-LOOP033_147
+  - first:
+      213: 2505578214722416866
+    second: screen-RIGHT-LOOP033_148
+  - first:
+      213: -3510125089721971312
+    second: screen-RIGHT-LOOP033_149
+  - first:
+      213: 1144866873344174392
+    second: screen-RIGHT-LOOP033_150
+  - first:
+      213: 7667463829700074176
+    second: screen-RIGHT-LOOP033_151
+  - first:
+      213: 5483703495593367508
+    second: screen-RIGHT-LOOP033_152
+  - first:
+      213: -5045122720204529840
+    second: screen-RIGHT-LOOP033_153
+  - first:
+      213: 8440913142359034379
+    second: screen-RIGHT-LOOP033_154
+  - first:
+      213: 3197526660995475801
+    second: screen-RIGHT-LOOP033_155
+  - first:
+      213: 6984256781381633046
+    second: screen-RIGHT-LOOP033_156
+  - first:
+      213: -2053510827009159559
+    second: screen-RIGHT-LOOP033_157
+  - first:
+      213: 1387919019484600775
+    second: screen-RIGHT-LOOP033_158
+  - first:
+      213: 5190840188303785040
+    second: screen-RIGHT-LOOP033_159
+  - first:
+      213: -8435321163842343351
+    second: screen-RIGHT-LOOP033_160
+  - first:
+      213: 6889013817865179776
+    second: screen-RIGHT-LOOP033_161
+  - first:
+      213: 6964274274480747351
+    second: screen-RIGHT-LOOP033_162
+  - first:
+      213: -5529684802379171839
+    second: screen-RIGHT-LOOP033_163
+  - first:
+      213: 8371808399450662784
+    second: screen-RIGHT-LOOP033_164
+  - first:
+      213: 3300415540704793631
+    second: screen-RIGHT-LOOP033_165
+  - first:
+      213: -7250407979053922696
+    second: screen-RIGHT-LOOP033_166
+  - first:
+      213: 2930704738908284666
+    second: screen-RIGHT-LOOP033_167
+  - first:
+      213: -6588995466958272643
+    second: screen-RIGHT-LOOP033_168
+  - first:
+      213: 4460093622776345701
+    second: screen-RIGHT-LOOP033_169
+  - first:
+      213: -4921845274232347633
+    second: screen-RIGHT-LOOP033_170
+  - first:
+      213: 4370323045558627384
+    second: screen-RIGHT-LOOP033_171
+  - first:
+      213: -7553701052028064217
+    second: screen-RIGHT-LOOP033_172
+  - first:
+      213: -5606925124457305592
+    second: screen-RIGHT-LOOP033_173
+  - first:
+      213: 4854502939002382662
+    second: screen-RIGHT-LOOP033_174
+  - first:
+      213: -2007509477489686774
+    second: screen-RIGHT-LOOP033_175
+  - first:
+      213: -2913075301325034777
+    second: screen-RIGHT-LOOP033_176
+  - first:
+      213: 2249846826470885424
+    second: screen-RIGHT-LOOP033_177
+  - first:
+      213: -4817009254878406902
+    second: screen-RIGHT-LOOP033_178
+  - first:
+      213: -2213532142919234283
+    second: screen-RIGHT-LOOP033_179
+  - first:
+      213: -4426771629906843312
+    second: screen-RIGHT-LOOP033_180
+  - first:
+      213: 8721573497758117041
+    second: screen-RIGHT-LOOP033_181
+  - first:
+      213: 6742052726956605042
+    second: screen-RIGHT-LOOP033_182
+  - first:
+      213: 1478932164395345562
+    second: screen-RIGHT-LOOP033_183
+  - first:
+      213: -2751410562105082189
+    second: screen-RIGHT-LOOP033_184
+  - first:
+      213: 3845955240926318680
+    second: screen-RIGHT-LOOP033_185
+  - first:
+      213: -2702318732181750072
+    second: screen-RIGHT-LOOP033_186
+  - first:
+      213: 3365543998982007378
+    second: screen-RIGHT-LOOP033_187
+  - first:
+      213: -3155338012629247553
+    second: screen-RIGHT-LOOP033_188
+  - first:
+      213: -3747198257425482042
+    second: screen-RIGHT-LOOP033_189
+  - first:
+      213: 1250000750667117395
+    second: screen-RIGHT-LOOP033_190
+  - first:
+      213: -7536309852901122882
+    second: screen-RIGHT-LOOP033_191
+  - first:
+      213: -3215652716648695079
+    second: screen-RIGHT-LOOP033_192
+  - first:
+      213: 713902247151558917
+    second: screen-RIGHT-LOOP033_193
+  - first:
+      213: -2751051471009225601
+    second: screen-RIGHT-LOOP033_194
+  - first:
+      213: 2263330508210250560
+    second: screen-RIGHT-LOOP033_195
+  - first:
+      213: -8545214922350956590
+    second: screen-RIGHT-LOOP033_196
+  - first:
+      213: 4400153485882904817
+    second: screen-RIGHT-LOOP033_197
+  - first:
+      213: -3482232222705880301
+    second: screen-RIGHT-LOOP033_198
+  - first:
+      213: 3679738295704862633
+    second: screen-RIGHT-LOOP033_199
+  - first:
+      213: -5298850993207343185
+    second: screen-RIGHT-LOOP033_200
+  - first:
+      213: -5310994164173980959
+    second: screen-RIGHT-LOOP033_201
+  - first:
+      213: 8842249711389364919
+    second: screen-RIGHT-LOOP033_202
+  - first:
+      213: -6314358295334094993
+    second: screen-RIGHT-LOOP033_203
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1122
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a216d42d4ac92800800000000000000
+      internalID: 588223659027862185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1113
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0876ed9d0dbf44c30800000000000000
+      internalID: 4342872815119001472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1112
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d807b7f025d4b8780800000000000000
+      internalID: -8679758841984094067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1118
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f13e23412da911f0800000000000000
+      internalID: -1073636677778525705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1081
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e781eaac9b500d0800000000000000
+      internalID: -3457152858781614527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1097
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6e89da5bb915280800000000000000
+      internalID: -9056286171061492041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1086
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58f8782bba96d300800000000000000
+      internalID: 276578555758442591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1068
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4275113c8d4c7700800000000000000
+      internalID: 539391319891866191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1048
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a367e1256a1830920800000000000000
+      internalID: 2955348331827459642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_9
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1068
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3711017e82a40130800000000000000
+      internalID: 3532126740430264125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1075
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d060d0ca0aa9a50800000000000000
+      internalID: 6528707270640274821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1018
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05260ad37717c1da0800000000000000
+      internalID: -5972774248851152304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_12
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1013
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59fc8217e3109840800000000000000
+      internalID: 5228701050546747742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_13
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1015
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d6e50c1b3814880800000000000000
+      internalID: -8628470611605295729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1014
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc4df50dd823ad3d0800000000000000
+      internalID: -3181174602116115251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_15
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1030
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda6257271045bec0800000000000000
+      internalID: -3551862262923629861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_16
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1026
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2806ca7b00507f0800000000000000
+      internalID: -647110182586776870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1003
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06191caf1afe1340800000000000000
+      internalID: 4836578063780746765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1004
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a6d73081de7eb50800000000000000
+      internalID: 6622522464465152613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_19
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 978
+        width: 72
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a212c27894618ae0800000000000000
+      internalID: -1548846190915611995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1053
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305bff6827efa6fd0800000000000000
+      internalID: -2347784487875660541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_21
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1003
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934744d8d1adf0b60800000000000000
+      internalID: 7714624507167929401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_22
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 983
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ebb314ab56d4ad0800000000000000
+      internalID: -2716403149601784204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_23
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 973
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cc50027c8aa9b20800000000000000
+      internalID: 3142009263233551463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 976
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1164b8eca056c8f20800000000000000
+      internalID: 3426224513611417105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_25
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 965
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ff3f23b9bc33c00800000000000000
+      internalID: 879270219702599450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 955
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44eb97b1c6706bca0800000000000000
+      internalID: -6001601292525781436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 965
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eca73782d94ea170800000000000000
+      internalID: 8191565940794043619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_28
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 948
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb742de431109a00800000000000000
+      internalID: 761127256040176591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_29
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 956
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07799018b85c53190800000000000000
+      internalID: -7983257561488320656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_30
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 948
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40f83eed22bfce00800000000000000
+      internalID: 1067267547050078287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 948
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593fb74dfd910a710800000000000000
+      internalID: 1702389108279341973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 898
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d668e2c153a3bbd30800000000000000
+      internalID: 4448213056738985581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 936
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5465291cf3ca2a2a0800000000000000
+      internalID: -6727625503507589563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_34
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 934
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848b7d79ddfc660a0800000000000000
+      internalID: -6888590029374375864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_35
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 941
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68f4bae657f388c0800000000000000
+      internalID: -3998080091497891729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_36
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 926
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23060b8d64f8e860800000000000000
+      internalID: 7559560725862417198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_37
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 927
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00cf3bc6b0945dc0800000000000000
+      internalID: -3651134283122229238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 916
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be786bd9e18543900800000000000000
+      internalID: 663251933648553963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_39
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 905
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252f4685652b1bb10800000000000000
+      internalID: 1995572193821782610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_40
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 881
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c4ff222c1631870800000000000000
+      internalID: 8652366795547560992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_41
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 902
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1f83a62fdd038b0800000000000000
+      internalID: -5174391938614758949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_42
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 890
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2471ccad2848650800000000000000
+      internalID: 6234251660426166955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_43
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 884
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c0dc9316b520380800000000000000
+      internalID: -9006535831647875972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_44
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 886
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b65e55119d2e6250800000000000000
+      internalID: 5939735059700274865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_45
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 874
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45a3bb5c42dda800800000000000000
+      internalID: 625387148672214349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_46
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 840
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcc4ebc4297196c0800000000000000
+      internalID: -4138393383630222160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_47
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 863
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc13549a092438e0800000000000000
+      internalID: -1714700432706429762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_48
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 874
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24558008eb7c81c80800000000000000
+      internalID: -8351705887952841406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 829
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66c8a130485263b0800000000000000
+      internalID: -5520753160468511124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_50
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 837
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9535da06b2006e140800000000000000
+      internalID: 4748483043414332249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_51
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 811
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab58b08ddf7fee690800000000000000
+      internalID: -7570841253939804742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_52
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 829
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c627af36f1fb9fdc0800000000000000
+      internalID: -3604639885191122324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_53
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 818
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e291d0269c597e8d0800000000000000
+      internalID: -2817118349730965202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_54
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 819
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbeef16f98cf6010800000000000000
+      internalID: 1184385813891181558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_55
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 802
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f6d218566a19cf0800000000000000
+      internalID: -247233549639520452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_56
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 805
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c33a91163e5193a0800000000000000
+      internalID: -6660438787587689528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_57
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 787
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0200ab0eedbe650800000000000000
+      internalID: 6263344763563417825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_58
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 814
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00e5f31b4c830830800000000000000
+      internalID: 4036223945139413007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_59
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 790
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52ec3b0a4befa6e0800000000000000
+      internalID: -1823980620813114790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_60
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 808
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726d2e734b9e5f7d0800000000000000
+      internalID: -2885143026019936729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_61
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 798
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807341f0da41f3050800000000000000
+      internalID: 5782363180081886984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 782
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf686a715a6733650800000000000000
+      internalID: 6211438762512516860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_63
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 791
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fa3763e10001c00800000000000000
+      internalID: 869194857845075803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_64
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 771
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c38653d69476790800000000000000
+      internalID: -7536974717984949119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_65
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 784
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c65cd169fa62590800000000000000
+      internalID: -7699273453663851483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 770
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b54c5111d0d93db0800000000000000
+      internalID: -4811585130510662218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_67
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 776
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0942376d7fb04c6d0800000000000000
+      internalID: -2971236695074986864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 771
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0218b9929a9b198d0800000000000000
+      internalID: -2841285753695403744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_69
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 747
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e017c19f090a2d6c0800000000000000
+      internalID: -4120054164575457010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_70
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 747
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f6bfa89cd320d60800000000000000
+      internalID: 7854908635917020994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_71
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 763
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213636eae8731a950800000000000000
+      internalID: 6458504426576634642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_72
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 762
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ded0a37344bb1220800000000000000
+      internalID: 2457756223456468694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52467fbfdc8401bb0800000000000000
+      internalID: -4967390339456867291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_74
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 728
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22da167ae5d963380800000000000000
+      internalID: -8991826576137933534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 741
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4493e0767b4f6180800000000000000
+      internalID: -9119987748329778102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_76
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 699
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fbc678f851853a0800000000000000
+      internalID: -6676562741380202722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_77
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 723
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd918b6f0d411b9f0800000000000000
+      internalID: -454559199662695972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_78
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 731
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f720738c0aa568510800000000000000
+      internalID: 1551026768276030079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_79
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 722
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ebe091f5e65d7090800000000000000
+      internalID: -8035170614558790681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_80
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 709
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9188010bfef959f0800000000000000
+      internalID: -479071531330666081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_81
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 724
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc5a49c82e6fd600800000000000000
+      internalID: 495235605488884953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_82
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 696
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256d210c5f3085860800000000000000
+      internalID: 7518763931919373906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_83
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 701
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea118520613295260800000000000000
+      internalID: 7086734066079764910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_84
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 702
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d845c05a48d976d0800000000000000
+      internalID: -2992122663716697896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_85
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 713
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5f1ee549db61420800000000000000
+      internalID: 2600474279797716445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_86
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 684
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b1394968715e920800000000000000
+      internalID: 3018844992007510860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_87
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 696
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ff0992fec6adf00800000000000000
+      internalID: 1142345229942193928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_88
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 676
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ed9a557d5721ba0800000000000000
+      internalID: -6119699375927468446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_89
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 695
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157911be87d476530800000000000000
+      internalID: 3848129588346591057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_90
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 678
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cddad3ecf8694b70800000000000000
+      internalID: 8883747175328832969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 671
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1305188921d70f340800000000000000
+      internalID: 4895550313773223985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_92
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 652
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297b46d0e131cea60800000000000000
+      internalID: 7704554082318727058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_93
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 651
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a076cd129ac9a46a0800000000000000
+      internalID: -6464182064905427190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_94
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 666
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1232f1350a97efd0800000000000000
+      internalID: -2312710536527990245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 677
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e6cb08f4dec19b0800000000000000
+      internalID: -5107946951626953085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_96
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 671
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fab62eaa1db14560800000000000000
+      internalID: 7296320793605487351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_97
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 678
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7c32bd506447a70800000000000000
+      internalID: 8823754560890980349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_98
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 661
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e87a6132619ab40800000000000000
+      internalID: 5451913163868442258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 651
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396ab209dde0a8c60800000000000000
+      internalID: 7821080047651628691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_100
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 640
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff03e3e38f132ceb0800000000000000
+      internalID: -4701140118755462913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_101
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 640
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4f2b262a5501f40800000000000000
+      internalID: 5697147684552635565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_102
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 657
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63ef9175504829e0800000000000000
+      internalID: -1645994928081214614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_103
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 654
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186512ea990be0fe0800000000000000
+      internalID: -1220844274872920447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_104
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 652
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a99fd9f65a9e350800000000000000
+      internalID: 6046545873531935326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_105
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 639
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d10fcd6141be030800000000000000
+      internalID: 3524933221776104706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_106
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 652
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337445bf7a017de80800000000000000
+      internalID: -8154030286668806349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_107
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 610
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512fb7bf9b347c4e0800000000000000
+      internalID: -1961524646629346795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_108
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 622
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38053986188b2cc0800000000000000
+      internalID: -3734741835601082307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_109
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 633
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f18dc8299a0bd00800000000000000
+      internalID: 986474765287432067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_110
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 621
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5ad2337ccfd5450800000000000000
+      internalID: 6079293004507358697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_111
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 593
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e548e8c43d25d00800000000000000
+      internalID: 960061996345351806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_112
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 605
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4b71649d4a45640800000000000000
+      internalID: 5067856733789467835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_113
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 594
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a2ace71acf4d810800000000000000
+      internalID: 1789332722520042142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_114
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 594
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f176d967e6512d7b0800000000000000
+      internalID: -5201071055478888673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1038a3eb38c8c6800800000000000000
+      internalID: 607014547248284417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_116
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 575
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c9f6b2af1cc82a0800000000000000
+      internalID: -6733794062611014635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_117
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 574
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f132b2b34d83c90800000000000000
+      internalID: -7189763454505115878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_118
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 573
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d843b02e91268d0800000000000000
+      internalID: -2854690755158176427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_119
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 575
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76168144085817c0800000000000000
+      internalID: -4100430685418416516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_120
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 591
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72df5e4edb68a3040800000000000000
+      internalID: 4628159717223824679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_121
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 551
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5003a4e44889295f0800000000000000
+      internalID: -751370493800861691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_122
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 563
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70ee5b73a5a2e300800000000000000
+      internalID: 279968248418459770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_123
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 543
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e842f7984046f240800000000000000
+      internalID: 4825114731305126115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_124
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 524
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2399ac2760e16d160800000000000000
+      internalID: 7049855279739607346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_125
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 521
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01658bf31b0767fa0800000000000000
+      internalID: -5803327163239737840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_126
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 541
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac61c21589422fa0800000000000000
+      internalID: -5827014131969856337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_127
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 523
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ab14942b6db5320800000000000000
+      internalID: 2547866075429714494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae19728456423f60800000000000000
+      internalID: 8012544015825706667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_129
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 504
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efed403adaece6c60800000000000000
+      internalID: 7813409648694058750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_130
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 502
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7e9a50ab4687290800000000000000
+      internalID: -7892447596845078544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_131
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 517
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca123a5ee83b14c0800000000000000
+      internalID: -4315793221537883445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_132
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 498
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ad0cb21b7bc7d10800000000000000
+      internalID: 2124775095783184988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1285098947e668510800000000000000
+      internalID: 1551048568730572833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_134
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 503
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812a7be092cc7a920800000000000000
+      internalID: 3001592153378365976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_135
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 484
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cd19b6006f9f340800000000000000
+      internalID: 4898216551407279121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_136
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 488
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b3707f6535a8d20800000000000000
+      internalID: 3281526911469566729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_137
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 480
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f31f54ad16af17f0800000000000000
+      internalID: -639609975821364236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_138
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 467
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f12abe22cf4d8980800000000000000
+      internalID: -8535078023371021832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_139
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 472
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb48aab9d975f8650800000000000000
+      internalID: 6237300343364551871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_140
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 471
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e1abd78eb7a3cf0800000000000000
+      internalID: -271768589030515170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_141
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 466
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61e935a787c5e440800000000000000
+      internalID: 4964593549652386157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_142
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 480
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33aa4c69d3023230800000000000000
+      internalID: 3616957683091546938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_143
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 464
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbb594826c86e440800000000000000
+      internalID: 4964809993981639628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_144
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 470
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9d953be6a3e5b30800000000000000
+      internalID: 4277920943178373560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_145
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 451
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ba5720617f52360800000000000000
+      internalID: 7144388057795767198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_146
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 461
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf29d3ae460a14c0800000000000000
+      internalID: -4316130358055063630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_147
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 451
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39d247f5773af5b0800000000000000
+      internalID: -5333889828867876545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_148
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 452
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0bc757c1a95c220800000000000000
+      internalID: 2505578214722416866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_149
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 433
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d8fed04d7894fc0800000000000000
+      internalID: -3510125089721971312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 430
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839aac40b5263ef00800000000000000
+      internalID: 1144866873344174392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_151
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 429
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cadd69aabd486a60800000000000000
+      internalID: 7667463829700074176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_152
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 426
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7196c76470a1c40800000000000000
+      internalID: 5483703495593367508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_153
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 439
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fd4fdbd9f1cf9b0800000000000000
+      internalID: -5045122720204529840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_154
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 434
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a8c36f7c5242570800000000000000
+      internalID: 8440913142359034379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_155
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 426
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959e9749e85ef5c20800000000000000
+      internalID: 3197526660995475801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_156
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 433
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6148d5ad9801de060800000000000000
+      internalID: 6984256781381633046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_157
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 408
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e43b568c67083e0800000000000000
+      internalID: -2053510827009159559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_158
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 411
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c95365aef0e24310800000000000000
+      internalID: 1387919019484600775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_159
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 425
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c3ba526a1990840800000000000000
+      internalID: 5190840188303785040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_160
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 410
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ea7def718bfea80800000000000000
+      internalID: -8435321163842343351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 389
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0829c9a5191ba9f50800000000000000
+      internalID: 6889013817865179776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_162
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 390
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753f0d8ed8216a060800000000000000
+      internalID: 6964274274480747351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_163
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 402
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108305248fc9243b0800000000000000
+      internalID: -5529684802379171839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_164
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 381
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08763e03263ae2470800000000000000
+      internalID: 8371808399450662784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_165
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 386
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1453eaa27e6dcd20800000000000000
+      internalID: 3300415540704793631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_166
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 396
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87645db7b50616b90800000000000000
+      internalID: -7250407979053922696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_167
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 401
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6ae28be64fba820800000000000000
+      internalID: 2930704738908284666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_168
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 368
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d770b45688f2f84a0800000000000000
+      internalID: -6588995466958272643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_169
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 373
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564b192f48f65ed30800000000000000
+      internalID: 4460093622776345701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_170
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 385
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0422f5dcc712bbb0800000000000000
+      internalID: -4921845274232347633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_171
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 384
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ca93ca7a186ac30800000000000000
+      internalID: 4370323045558627384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_172
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 364
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e6f561aecdb2790800000000000000
+      internalID: -7553701052028064217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_173
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 358
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a628a5e433032b0800000000000000
+      internalID: -5606925124457305592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_174
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 336
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649a358e3b8ae5340800000000000000
+      internalID: 4854502939002382662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_175
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 343
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a074ff634c4e324e0800000000000000
+      internalID: -2007509477489686774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_176
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 342
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eaae84927da297d0800000000000000
+      internalID: -2913075301325034777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_177
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 339
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03846dab4cf093f10800000000000000
+      internalID: 2249846826470885424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_178
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 333
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a071433ba9b862db0800000000000000
+      internalID: -4817009254878406902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_179
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 311
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dc36a6e34f741e0800000000000000
+      internalID: -2213532142919234283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_180
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 306
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05920a918a2f092c0800000000000000
+      internalID: -4426771629906843312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_181
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 298
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc655823e0490970800000000000000
+      internalID: 8721573497758117041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_182
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 289
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27eb337fb35909d50800000000000000
+      internalID: 6742052726956605042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_183
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 298
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a962fa1c7f8368410800000000000000
+      internalID: 1478932164395345562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_184
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 256
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bef77edba601d9d0800000000000000
+      internalID: -2751410562105082189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_185
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 268
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85017753ae39f5530800000000000000
+      internalID: 3845955240926318680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_186
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 261
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce3c6a3e6f6f7ad0800000000000000
+      internalID: -2702318732181750072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_187
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 252
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a25478f60d4be20800000000000000
+      internalID: 3365543998982007378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_188
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 269
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb952f29bccf534d0800000000000000
+      internalID: -3155338012629247553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_189
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 231
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cef033d9074ffbc0800000000000000
+      internalID: -3747198257425482042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_190
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 236
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3533c785f05e85110800000000000000
+      internalID: 1250000750667117395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_191
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 243
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc5d8c2e16a96790800000000000000
+      internalID: -7536309852901122882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_192
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 225
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da722734e4bf53d0800000000000000
+      internalID: -3215652716648695079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_193
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 225
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50162d5bf4a48e900800000000000000
+      internalID: 713902247151558917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_194
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 205
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74eda7434d42d9d0800000000000000
+      internalID: -2751051471009225601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_195
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 199
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0432d270b17f86f10800000000000000
+      internalID: 2263330508210250560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_196
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 166
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df67e77d4c496980800000000000000
+      internalID: -8545214922350956590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_197
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 147
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f05f3b484c701d30800000000000000
+      internalID: 4400153485882904817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_198
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 156
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313723c3e30acafc0800000000000000
+      internalID: -3482232222705880301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_199
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 144
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afb3eddb7e011330800000000000000
+      internalID: 3679738295704862633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_200
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 128
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa78620a813b676b0800000000000000
+      internalID: -5298850993207343185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_201
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 95
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eabc3052fe8b46b0800000000000000
+      internalID: -5310994164173980959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_202
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 101
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2d9a6a34bf5ba70800000000000000
+      internalID: 8842249711389364919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: screen-RIGHT-LOOP033_203
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 22
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67f116d594ee58a0800000000000000
+      internalID: -6314358295334094993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      screen-RIGHT-LOOP033_0: 588223659027862185
+      screen-RIGHT-LOOP033_1: 4342872815119001472
+      screen-RIGHT-LOOP033_10: 6528707270640274821
+      screen-RIGHT-LOOP033_100: -4701140118755462913
+      screen-RIGHT-LOOP033_101: 5697147684552635565
+      screen-RIGHT-LOOP033_102: -1645994928081214614
+      screen-RIGHT-LOOP033_103: -1220844274872920447
+      screen-RIGHT-LOOP033_104: 6046545873531935326
+      screen-RIGHT-LOOP033_105: 3524933221776104706
+      screen-RIGHT-LOOP033_106: -8154030286668806349
+      screen-RIGHT-LOOP033_107: -1961524646629346795
+      screen-RIGHT-LOOP033_108: -3734741835601082307
+      screen-RIGHT-LOOP033_109: 986474765287432067
+      screen-RIGHT-LOOP033_11: -5972774248851152304
+      screen-RIGHT-LOOP033_110: 6079293004507358697
+      screen-RIGHT-LOOP033_111: 960061996345351806
+      screen-RIGHT-LOOP033_112: 5067856733789467835
+      screen-RIGHT-LOOP033_113: 1789332722520042142
+      screen-RIGHT-LOOP033_114: -5201071055478888673
+      screen-RIGHT-LOOP033_115: 607014547248284417
+      screen-RIGHT-LOOP033_116: -6733794062611014635
+      screen-RIGHT-LOOP033_117: -7189763454505115878
+      screen-RIGHT-LOOP033_118: -2854690755158176427
+      screen-RIGHT-LOOP033_119: -4100430685418416516
+      screen-RIGHT-LOOP033_12: 5228701050546747742
+      screen-RIGHT-LOOP033_120: 4628159717223824679
+      screen-RIGHT-LOOP033_121: -751370493800861691
+      screen-RIGHT-LOOP033_122: 279968248418459770
+      screen-RIGHT-LOOP033_123: 4825114731305126115
+      screen-RIGHT-LOOP033_124: 7049855279739607346
+      screen-RIGHT-LOOP033_125: -5803327163239737840
+      screen-RIGHT-LOOP033_126: -5827014131969856337
+      screen-RIGHT-LOOP033_127: 2547866075429714494
+      screen-RIGHT-LOOP033_128: 8012544015825706667
+      screen-RIGHT-LOOP033_129: 7813409648694058750
+      screen-RIGHT-LOOP033_13: -8628470611605295729
+      screen-RIGHT-LOOP033_130: -7892447596845078544
+      screen-RIGHT-LOOP033_131: -4315793221537883445
+      screen-RIGHT-LOOP033_132: 2124775095783184988
+      screen-RIGHT-LOOP033_133: 1551048568730572833
+      screen-RIGHT-LOOP033_134: 3001592153378365976
+      screen-RIGHT-LOOP033_135: 4898216551407279121
+      screen-RIGHT-LOOP033_136: 3281526911469566729
+      screen-RIGHT-LOOP033_137: -639609975821364236
+      screen-RIGHT-LOOP033_138: -8535078023371021832
+      screen-RIGHT-LOOP033_139: 6237300343364551871
+      screen-RIGHT-LOOP033_14: -3181174602116115251
+      screen-RIGHT-LOOP033_140: -271768589030515170
+      screen-RIGHT-LOOP033_141: 4964593549652386157
+      screen-RIGHT-LOOP033_142: 3616957683091546938
+      screen-RIGHT-LOOP033_143: 4964809993981639628
+      screen-RIGHT-LOOP033_144: 4277920943178373560
+      screen-RIGHT-LOOP033_145: 7144388057795767198
+      screen-RIGHT-LOOP033_146: -4316130358055063630
+      screen-RIGHT-LOOP033_147: -5333889828867876545
+      screen-RIGHT-LOOP033_148: 2505578214722416866
+      screen-RIGHT-LOOP033_149: -3510125089721971312
+      screen-RIGHT-LOOP033_15: -3551862262923629861
+      screen-RIGHT-LOOP033_150: 1144866873344174392
+      screen-RIGHT-LOOP033_151: 7667463829700074176
+      screen-RIGHT-LOOP033_152: 5483703495593367508
+      screen-RIGHT-LOOP033_153: -5045122720204529840
+      screen-RIGHT-LOOP033_154: 8440913142359034379
+      screen-RIGHT-LOOP033_155: 3197526660995475801
+      screen-RIGHT-LOOP033_156: 6984256781381633046
+      screen-RIGHT-LOOP033_157: -2053510827009159559
+      screen-RIGHT-LOOP033_158: 1387919019484600775
+      screen-RIGHT-LOOP033_159: 5190840188303785040
+      screen-RIGHT-LOOP033_16: -647110182586776870
+      screen-RIGHT-LOOP033_160: -8435321163842343351
+      screen-RIGHT-LOOP033_161: 6889013817865179776
+      screen-RIGHT-LOOP033_162: 6964274274480747351
+      screen-RIGHT-LOOP033_163: -5529684802379171839
+      screen-RIGHT-LOOP033_164: 8371808399450662784
+      screen-RIGHT-LOOP033_165: 3300415540704793631
+      screen-RIGHT-LOOP033_166: -7250407979053922696
+      screen-RIGHT-LOOP033_167: 2930704738908284666
+      screen-RIGHT-LOOP033_168: -6588995466958272643
+      screen-RIGHT-LOOP033_169: 4460093622776345701
+      screen-RIGHT-LOOP033_17: 4836578063780746765
+      screen-RIGHT-LOOP033_170: -4921845274232347633
+      screen-RIGHT-LOOP033_171: 4370323045558627384
+      screen-RIGHT-LOOP033_172: -7553701052028064217
+      screen-RIGHT-LOOP033_173: -5606925124457305592
+      screen-RIGHT-LOOP033_174: 4854502939002382662
+      screen-RIGHT-LOOP033_175: -2007509477489686774
+      screen-RIGHT-LOOP033_176: -2913075301325034777
+      screen-RIGHT-LOOP033_177: 2249846826470885424
+      screen-RIGHT-LOOP033_178: -4817009254878406902
+      screen-RIGHT-LOOP033_179: -2213532142919234283
+      screen-RIGHT-LOOP033_18: 6622522464465152613
+      screen-RIGHT-LOOP033_180: -4426771629906843312
+      screen-RIGHT-LOOP033_181: 8721573497758117041
+      screen-RIGHT-LOOP033_182: 6742052726956605042
+      screen-RIGHT-LOOP033_183: 1478932164395345562
+      screen-RIGHT-LOOP033_184: -2751410562105082189
+      screen-RIGHT-LOOP033_185: 3845955240926318680
+      screen-RIGHT-LOOP033_186: -2702318732181750072
+      screen-RIGHT-LOOP033_187: 3365543998982007378
+      screen-RIGHT-LOOP033_188: -3155338012629247553
+      screen-RIGHT-LOOP033_189: -3747198257425482042
+      screen-RIGHT-LOOP033_19: -1548846190915611995
+      screen-RIGHT-LOOP033_190: 1250000750667117395
+      screen-RIGHT-LOOP033_191: -7536309852901122882
+      screen-RIGHT-LOOP033_192: -3215652716648695079
+      screen-RIGHT-LOOP033_193: 713902247151558917
+      screen-RIGHT-LOOP033_194: -2751051471009225601
+      screen-RIGHT-LOOP033_195: 2263330508210250560
+      screen-RIGHT-LOOP033_196: -8545214922350956590
+      screen-RIGHT-LOOP033_197: 4400153485882904817
+      screen-RIGHT-LOOP033_198: -3482232222705880301
+      screen-RIGHT-LOOP033_199: 3679738295704862633
+      screen-RIGHT-LOOP033_2: -8679758841984094067
+      screen-RIGHT-LOOP033_20: -2347784487875660541
+      screen-RIGHT-LOOP033_200: -5298850993207343185
+      screen-RIGHT-LOOP033_201: -5310994164173980959
+      screen-RIGHT-LOOP033_202: 8842249711389364919
+      screen-RIGHT-LOOP033_203: -6314358295334094993
+      screen-RIGHT-LOOP033_21: 7714624507167929401
+      screen-RIGHT-LOOP033_22: -2716403149601784204
+      screen-RIGHT-LOOP033_23: 3142009263233551463
+      screen-RIGHT-LOOP033_24: 3426224513611417105
+      screen-RIGHT-LOOP033_25: 879270219702599450
+      screen-RIGHT-LOOP033_26: -6001601292525781436
+      screen-RIGHT-LOOP033_27: 8191565940794043619
+      screen-RIGHT-LOOP033_28: 761127256040176591
+      screen-RIGHT-LOOP033_29: -7983257561488320656
+      screen-RIGHT-LOOP033_3: -1073636677778525705
+      screen-RIGHT-LOOP033_30: 1067267547050078287
+      screen-RIGHT-LOOP033_31: 1702389108279341973
+      screen-RIGHT-LOOP033_32: 4448213056738985581
+      screen-RIGHT-LOOP033_33: -6727625503507589563
+      screen-RIGHT-LOOP033_34: -6888590029374375864
+      screen-RIGHT-LOOP033_35: -3998080091497891729
+      screen-RIGHT-LOOP033_36: 7559560725862417198
+      screen-RIGHT-LOOP033_37: -3651134283122229238
+      screen-RIGHT-LOOP033_38: 663251933648553963
+      screen-RIGHT-LOOP033_39: 1995572193821782610
+      screen-RIGHT-LOOP033_4: -3457152858781614527
+      screen-RIGHT-LOOP033_40: 8652366795547560992
+      screen-RIGHT-LOOP033_41: -5174391938614758949
+      screen-RIGHT-LOOP033_42: 6234251660426166955
+      screen-RIGHT-LOOP033_43: -9006535831647875972
+      screen-RIGHT-LOOP033_44: 5939735059700274865
+      screen-RIGHT-LOOP033_45: 625387148672214349
+      screen-RIGHT-LOOP033_46: -4138393383630222160
+      screen-RIGHT-LOOP033_47: -1714700432706429762
+      screen-RIGHT-LOOP033_48: -8351705887952841406
+      screen-RIGHT-LOOP033_49: -5520753160468511124
+      screen-RIGHT-LOOP033_5: -9056286171061492041
+      screen-RIGHT-LOOP033_50: 4748483043414332249
+      screen-RIGHT-LOOP033_51: -7570841253939804742
+      screen-RIGHT-LOOP033_52: -3604639885191122324
+      screen-RIGHT-LOOP033_53: -2817118349730965202
+      screen-RIGHT-LOOP033_54: 1184385813891181558
+      screen-RIGHT-LOOP033_55: -247233549639520452
+      screen-RIGHT-LOOP033_56: -6660438787587689528
+      screen-RIGHT-LOOP033_57: 6263344763563417825
+      screen-RIGHT-LOOP033_58: 4036223945139413007
+      screen-RIGHT-LOOP033_59: -1823980620813114790
+      screen-RIGHT-LOOP033_6: 276578555758442591
+      screen-RIGHT-LOOP033_60: -2885143026019936729
+      screen-RIGHT-LOOP033_61: 5782363180081886984
+      screen-RIGHT-LOOP033_62: 6211438762512516860
+      screen-RIGHT-LOOP033_63: 869194857845075803
+      screen-RIGHT-LOOP033_64: -7536974717984949119
+      screen-RIGHT-LOOP033_65: -7699273453663851483
+      screen-RIGHT-LOOP033_66: -4811585130510662218
+      screen-RIGHT-LOOP033_67: -2971236695074986864
+      screen-RIGHT-LOOP033_68: -2841285753695403744
+      screen-RIGHT-LOOP033_69: -4120054164575457010
+      screen-RIGHT-LOOP033_7: 539391319891866191
+      screen-RIGHT-LOOP033_70: 7854908635917020994
+      screen-RIGHT-LOOP033_71: 6458504426576634642
+      screen-RIGHT-LOOP033_72: 2457756223456468694
+      screen-RIGHT-LOOP033_73: -4967390339456867291
+      screen-RIGHT-LOOP033_74: -8991826576137933534
+      screen-RIGHT-LOOP033_75: -9119987748329778102
+      screen-RIGHT-LOOP033_76: -6676562741380202722
+      screen-RIGHT-LOOP033_77: -454559199662695972
+      screen-RIGHT-LOOP033_78: 1551026768276030079
+      screen-RIGHT-LOOP033_79: -8035170614558790681
+      screen-RIGHT-LOOP033_8: 2955348331827459642
+      screen-RIGHT-LOOP033_80: -479071531330666081
+      screen-RIGHT-LOOP033_81: 495235605488884953
+      screen-RIGHT-LOOP033_82: 7518763931919373906
+      screen-RIGHT-LOOP033_83: 7086734066079764910
+      screen-RIGHT-LOOP033_84: -2992122663716697896
+      screen-RIGHT-LOOP033_85: 2600474279797716445
+      screen-RIGHT-LOOP033_86: 3018844992007510860
+      screen-RIGHT-LOOP033_87: 1142345229942193928
+      screen-RIGHT-LOOP033_88: -6119699375927468446
+      screen-RIGHT-LOOP033_89: 3848129588346591057
+      screen-RIGHT-LOOP033_9: 3532126740430264125
+      screen-RIGHT-LOOP033_90: 8883747175328832969
+      screen-RIGHT-LOOP033_91: 4895550313773223985
+      screen-RIGHT-LOOP033_92: 7704554082318727058
+      screen-RIGHT-LOOP033_93: -6464182064905427190
+      screen-RIGHT-LOOP033_94: -2312710536527990245
+      screen-RIGHT-LOOP033_95: -5107946951626953085
+      screen-RIGHT-LOOP033_96: 7296320793605487351
+      screen-RIGHT-LOOP033_97: 8823754560890980349
+      screen-RIGHT-LOOP033_98: 5451913163868442258
+      screen-RIGHT-LOOP033_99: 7821080047651628691
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

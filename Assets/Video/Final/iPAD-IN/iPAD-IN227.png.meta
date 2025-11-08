@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 1ad244cfc6ef93a41a275ef8eb8d44f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7098729750798421889
+    second: iPAD-IN227_0
+  - first:
+      213: 5801616933872785177
+    second: iPAD-IN227_1
+  - first:
+      213: -1547817883514599966
+    second: iPAD-IN227_2
+  - first:
+      213: -7275484270393176786
+    second: iPAD-IN227_3
+  - first:
+      213: -8383288131484185884
+    second: iPAD-IN227_4
+  - first:
+      213: 2984086071126058516
+    second: iPAD-IN227_5
+  - first:
+      213: -4365258923918112854
+    second: iPAD-IN227_6
+  - first:
+      213: 9018077438066003878
+    second: iPAD-IN227_7
+  - first:
+      213: -3940338220994556687
+    second: iPAD-IN227_8
+  - first:
+      213: -1672298582444083777
+    second: iPAD-IN227_9
+  - first:
+      213: 6835634957644452875
+    second: iPAD-IN227_10
+  - first:
+      213: 3678512449018731802
+    second: iPAD-IN227_11
+  - first:
+      213: 5591787045050508217
+    second: iPAD-IN227_12
+  - first:
+      213: 3576994475657424383
+    second: iPAD-IN227_13
+  - first:
+      213: -1114392698272130863
+    second: iPAD-IN227_14
+  - first:
+      213: 7612178820174420441
+    second: iPAD-IN227_15
+  - first:
+      213: -8467640516861623962
+    second: iPAD-IN227_16
+  - first:
+      213: 7272364560121409076
+    second: iPAD-IN227_17
+  - first:
+      213: 8885030251023138444
+    second: iPAD-IN227_18
+  - first:
+      213: 7447279709660353988
+    second: iPAD-IN227_19
+  - first:
+      213: -5405394433200881671
+    second: iPAD-IN227_20
+  - first:
+      213: 3666282799006116974
+    second: iPAD-IN227_21
+  - first:
+      213: -783155341689132889
+    second: iPAD-IN227_22
+  - first:
+      213: -9150098224837365810
+    second: iPAD-IN227_23
+  - first:
+      213: -2620734065402029877
+    second: iPAD-IN227_24
+  - first:
+      213: -7305370173133483704
+    second: iPAD-IN227_25
+  - first:
+      213: -6183151267588488744
+    second: iPAD-IN227_26
+  - first:
+      213: 3512183211915343353
+    second: iPAD-IN227_27
+  - first:
+      213: -2956440450109368325
+    second: iPAD-IN227_28
+  - first:
+      213: 9105090082532921203
+    second: iPAD-IN227_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iPAD-IN227_0
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 443
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70b92ff6ee3c7d90800000000000000
+      internalID: -7098729750798421889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_1
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 440
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917d062fcdb738050800000000000000
+      internalID: 5801616933872785177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 405
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e58d1ce5db058ae0800000000000000
+      internalID: -1547817883514599966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_3
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 392
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2dc54e6a99480b90800000000000000
+      internalID: -7275484270393176786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_4
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 370
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ea03296cd398ab80800000000000000
+      internalID: -8383288131484185884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 327
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416e8a8a87a996920800000000000000
+      internalID: 2984086071126058516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_6
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 276
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7c147032c7b63c0800000000000000
+      internalID: -4365258923918112854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_7
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 285
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af83ec66a5a62d70800000000000000
+      internalID: 9018077438066003878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_8
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 248
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc89bac34b1159c0800000000000000
+      internalID: -3940338220994556687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 250
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5f70bac4dcac8e0800000000000000
+      internalID: -1672298582444083777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_10
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 262
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04d3a8f6cd0dde50800000000000000
+      internalID: 6835634957644452875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_11
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 202
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d1d913593bc0330800000000000000
+      internalID: 3678512449018731802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 200
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3eddfd0b40a9d40800000000000000
+      internalID: 5591787045050508217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_13
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 176
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd681d168904a130800000000000000
+      internalID: 3576994475657424383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 144
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d85337ceb1e880f0800000000000000
+      internalID: -1114392698272130863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 136
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d99f3f4e44e3a960800000000000000
+      internalID: 7612178820174420441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_16
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 122
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66102ca30d5ec7a80800000000000000
+      internalID: -8467640516861623962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 105
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e2d2b6901ace460800000000000000
+      internalID: 7272364560121409076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_18
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 85
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e75da30f7fd4b70800000000000000
+      internalID: 8885030251023138444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_19
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 96
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c59745407d0a5760800000000000000
+      internalID: 7447279709660353988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_20
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 72
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffff2ae66e2cf4b0800000000000000
+      internalID: -5405394433200881671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_21
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 83
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c62e8e7c041e230800000000000000
+      internalID: 3666282799006116974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_22
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 34
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a86ba6bd5ca125f0800000000000000
+      internalID: -783155341689132889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_23
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 25
+        width: 14
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfe2a0d422540180800000000000000
+      internalID: -9150098224837365810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_24
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 36
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc852f4b04841abd0800000000000000
+      internalID: -2620734065402029877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_25
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 46
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84115a5788c1e9a90800000000000000
+      internalID: -7305370173133483704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_26
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 20
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1c1ee8ea8013aa0800000000000000
+      internalID: -6183151267588488744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_27
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 20
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5fd4cd508cdb030800000000000000
+      internalID: 3512183211915343353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_28
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 0
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf792a3131d98f6d0800000000000000
+      internalID: -2956440450109368325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-IN227_29
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 21
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f8e417037cb5e70800000000000000
+      internalID: 9105090082532921203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      iPAD-IN227_0: -7098729750798421889
+      iPAD-IN227_1: 5801616933872785177
+      iPAD-IN227_10: 6835634957644452875
+      iPAD-IN227_11: 3678512449018731802
+      iPAD-IN227_12: 5591787045050508217
+      iPAD-IN227_13: 3576994475657424383
+      iPAD-IN227_14: -1114392698272130863
+      iPAD-IN227_15: 7612178820174420441
+      iPAD-IN227_16: -8467640516861623962
+      iPAD-IN227_17: 7272364560121409076
+      iPAD-IN227_18: 8885030251023138444
+      iPAD-IN227_19: 7447279709660353988
+      iPAD-IN227_2: -1547817883514599966
+      iPAD-IN227_20: -5405394433200881671
+      iPAD-IN227_21: 3666282799006116974
+      iPAD-IN227_22: -783155341689132889
+      iPAD-IN227_23: -9150098224837365810
+      iPAD-IN227_24: -2620734065402029877
+      iPAD-IN227_25: -7305370173133483704
+      iPAD-IN227_26: -6183151267588488744
+      iPAD-IN227_27: 3512183211915343353
+      iPAD-IN227_28: -2956440450109368325
+      iPAD-IN227_29: 9105090082532921203
+      iPAD-IN227_3: -7275484270393176786
+      iPAD-IN227_4: -8383288131484185884
+      iPAD-IN227_5: 2984086071126058516
+      iPAD-IN227_6: -4365258923918112854
+      iPAD-IN227_7: 9018077438066003878
+      iPAD-IN227_8: -3940338220994556687
+      iPAD-IN227_9: -1672298582444083777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

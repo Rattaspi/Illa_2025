@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 928a5c65324335e478735fe7bd865474
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6727785593856493520
+    second: iPAD-OUT04_0
+  - first:
+      213: 9028359613708659542
+    second: iPAD-OUT04_1
+  - first:
+      213: -5753937620099019358
+    second: iPAD-OUT04_2
+  - first:
+      213: 8790954722554365810
+    second: iPAD-OUT04_3
+  - first:
+      213: -6562267222472939091
+    second: iPAD-OUT04_4
+  - first:
+      213: -7258764600264562745
+    second: iPAD-OUT04_5
+  - first:
+      213: 4040673059528675050
+    second: iPAD-OUT04_6
+  - first:
+      213: 7639504183263607043
+    second: iPAD-OUT04_7
+  - first:
+      213: -6319796689229783052
+    second: iPAD-OUT04_8
+  - first:
+      213: -1923409262427133017
+    second: iPAD-OUT04_9
+  - first:
+      213: -5708023928810896993
+    second: iPAD-OUT04_10
+  - first:
+      213: -1003890170105128320
+    second: iPAD-OUT04_11
+  - first:
+      213: 3075759955484524460
+    second: iPAD-OUT04_12
+  - first:
+      213: -4318184911686241929
+    second: iPAD-OUT04_13
+  - first:
+      213: -3293088992546516109
+    second: iPAD-OUT04_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iPAD-OUT04_0
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 308
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d78ece2a55ed5d50800000000000000
+      internalID: 6727785593856493520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_1
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 248
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b669ffb3d2b4d70800000000000000
+      internalID: 9028359613708659542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_2
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 264
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adcd3e5838e520b0800000000000000
+      internalID: -5753937620099019358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 209
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27745626ebebff970800000000000000
+      internalID: 8790954722554365810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_4
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 176
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9af43cab42ee4a0800000000000000
+      internalID: -6562267222472939091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_5
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 173
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7ec0dfd00b34b90800000000000000
+      internalID: -7258764600264562745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_6
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 136
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee82be3dba531830800000000000000
+      internalID: 4040673059528675050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_7
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 141
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309b98f2498f40a60800000000000000
+      internalID: 7639504183263607043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_8
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 113
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffd4c515629b48a0800000000000000
+      internalID: -6319796689229783052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 70
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aba55b677dae45e0800000000000000
+      internalID: -1923409262427133017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 48
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f910cc9aa7609c0b0800000000000000
+      internalID: -5708023928810896993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_11
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 43
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a906985377112f0800000000000000
+      internalID: -1003890170105128320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cafb609226b4faa20800000000000000
+      internalID: 3075759955484524460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_13
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 18
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7717d7893b9b214c0800000000000000
+      internalID: -4318184911686241929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-OUT04_14
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 8
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373148142099c42d0800000000000000
+      internalID: -3293088992546516109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      iPAD-OUT04_0: 6727785593856493520
+      iPAD-OUT04_1: 9028359613708659542
+      iPAD-OUT04_10: -5708023928810896993
+      iPAD-OUT04_11: -1003890170105128320
+      iPAD-OUT04_12: 3075759955484524460
+      iPAD-OUT04_13: -4318184911686241929
+      iPAD-OUT04_14: -3293088992546516109
+      iPAD-OUT04_2: -5753937620099019358
+      iPAD-OUT04_3: 8790954722554365810
+      iPAD-OUT04_4: -6562267222472939091
+      iPAD-OUT04_5: -7258764600264562745
+      iPAD-OUT04_6: 4040673059528675050
+      iPAD-OUT04_7: 7639504183263607043
+      iPAD-OUT04_8: -6319796689229783052
+      iPAD-OUT04_9: -1923409262427133017
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

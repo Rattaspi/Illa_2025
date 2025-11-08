@@ -133,6 +133,8 @@ public class AppManager_Final : MonoBehaviour {
     }
 
     void SelectNumber(int selectedNumber) {
+        LightManager.instance.TriggerSelectNumber();
+
         orderedSelectedNumbers.Add(selectedNumbers[selectedNumber - 1].GetComponent<NumberForFinal>());
 
         selectedNumbers[orderedSelectedNumbers.Count - 1].GetComponentInChildren<TextMeshProUGUI>().text = selectedNumber.ToString("00");
@@ -163,7 +165,7 @@ public class AppManager_Final : MonoBehaviour {
     IEnumerator Reveal() {
         VideoManager.instance.StopVideo();
 
-        const float timeForFastRoulette = 3.5f;
+        const float timeForFastRoulette = 2.5f;
         const float fastRouletteSelectChangeTime = 0.1f;
         int numberOfIterationsForFastRoulette = Mathf.CeilToInt(timeForFastRoulette / fastRouletteSelectChangeTime);
 
@@ -176,6 +178,8 @@ public class AppManager_Final : MonoBehaviour {
         while (orderedNumbersForReveal.Count > 2) { // Special reveal for the last 2 numbers
             // ITERATION FOR 1 REVEAL
             List<NumberForFinal> randomlyOrderedNumbersForRoulette = Shuffle(orderedNumbersForReveal);
+
+            LightManager.instance.TriggerRoulette();
 
             // Roulette
             for (int j = 0; j < numberOfIterationsForFastRoulette; j++) {
@@ -219,11 +223,13 @@ public class AppManager_Final : MonoBehaviour {
                 // WIN
                 orderedNumbersForReveal[0].SetGreen();
                 AudioManager.instance.PlayWin();
+                LightManager.instance.TriggerWin();
             }
             else {
                 // LOSE
                 orderedNumbersForReveal[0].SetRed();
                 AudioManager.instance.PlayLose();
+                LightManager.instance.TriggerLose();
 
                 yield return new WaitForSeconds(3f);
 
@@ -258,6 +264,8 @@ public class AppManager_Final : MonoBehaviour {
             .Append(giftHorizontalStripe.DOMoveX(ledScreenCanvas.rect.width / 3 + 100, 0.5f).SetRelative(true))
             .Append(giftVerticalStripe.DOMoveY(2000, 0.5f))
             .Append(winnerSphere.DOMoveY(ledScreenCanvas.rect.height / 2, 2.5f).SetEase(Ease.OutBack));
+
+        LightManager.instance.TriggerRoulette();
 
         // Roulette
         for (int j = 0; j < numberOfIterationsForFastRoulette; j++) {
@@ -304,7 +312,10 @@ public class AppManager_Final : MonoBehaviour {
             // LOSE
             orderedNumbersForReveal[1].SetRed();
         }
+
+        // WIN SEQUENCE
         AudioManager.instance.PlayWin();
+        LightManager.instance.TriggerWin();
         foreach (GameObject go in confettiObjects) {
             go.SetActive(true);
         }

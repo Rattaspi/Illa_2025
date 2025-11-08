@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 5bc3fecd5c3767945a04768609bbcf50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4828585288503207965
+    second: iPAD-LOOP002_0
+  - first:
+      213: 4048367284070780831
+    second: iPAD-LOOP002_1
+  - first:
+      213: -2469177311472983825
+    second: iPAD-LOOP002_2
+  - first:
+      213: 9122418140446022241
+    second: iPAD-LOOP002_3
+  - first:
+      213: -7263737474561179194
+    second: iPAD-LOOP002_4
+  - first:
+      213: -561044238088787427
+    second: iPAD-LOOP002_5
+  - first:
+      213: -3465751464841399404
+    second: iPAD-LOOP002_6
+  - first:
+      213: -8834578341726774843
+    second: iPAD-LOOP002_7
+  - first:
+      213: -7280289907060752861
+    second: iPAD-LOOP002_8
+  - first:
+      213: 5292240392874274849
+    second: iPAD-LOOP002_9
+  - first:
+      213: -8292110507416729070
+    second: iPAD-LOOP002_10
+  - first:
+      213: 5449472853762641241
+    second: iPAD-LOOP002_11
+  - first:
+      213: 5376070891519765183
+    second: iPAD-LOOP002_12
+  - first:
+      213: 7228244616281226474
+    second: iPAD-LOOP002_13
+  - first:
+      213: -5717668679210731690
+    second: iPAD-LOOP002_14
+  - first:
+      213: -862790504467374201
+    second: iPAD-LOOP002_15
+  - first:
+      213: 1132604261731546268
+    second: iPAD-LOOP002_16
+  - first:
+      213: 3728385163563035170
+    second: iPAD-LOOP002_17
+  - first:
+      213: 8939125546945114213
+    second: iPAD-LOOP002_18
+  - first:
+      213: 6666374707711040173
+    second: iPAD-LOOP002_19
+  - first:
+      213: 7968192257563467294
+    second: iPAD-LOOP002_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: iPAD-LOOP002_0
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 363
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7d617534b6dfcb0800000000000000
+      internalID: -4828585288503207965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_1
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 334
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f0a5f7890be2830800000000000000
+      internalID: 4048367284070780831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_2
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 291
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0e2364158bbbdd0800000000000000
+      internalID: -2469177311472983825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_3
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 297
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a5dd157f6599e70800000000000000
+      internalID: 9122418140446022241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_4
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 263
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c186177045023b90800000000000000
+      internalID: -7263737474561179194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_5
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 213
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a207dec35c638f0800000000000000
+      internalID: -561044238088787427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_6
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 219
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493b652b76d27efc0800000000000000
+      internalID: -3465751464841399404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_7
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 179
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c914094ec5456580800000000000000
+      internalID: -8834578341726774843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_8
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 190
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e38c3f6e637fa90800000000000000
+      internalID: -7280289907060752861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_9
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 124
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120be3b0990d17940800000000000000
+      internalID: 5292240392874274849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 113
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a442f4d618cec80800000000000000
+      internalID: -8292110507416729070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d08ad10ba60ab40800000000000000
+      internalID: 5449472853762641241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_12
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 97
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba6a500ef3ab9a40800000000000000
+      internalID: 5376070891519765183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 67
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec721f7e22ef4460800000000000000
+      internalID: 7228244616281226474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_14
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 53
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657744831a2c6a0b0800000000000000
+      internalID: -5717668679210731690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_15
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 36
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f54a18b90c604f0800000000000000
+      internalID: -862790504467374201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_16
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 19
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c943a934391d7bf00800000000000000
+      internalID: 1132604261731546268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 5
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ae20c6d82edb330800000000000000
+      internalID: 3728385163563035170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_18
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 26
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560784cc2572e0c70800000000000000
+      internalID: 8939125546945114213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daad3c80a78b38c50800000000000000
+      internalID: 6666374707711040173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: iPAD-LOOP002_20
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 3
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e961614a4b49e60800000000000000
+      internalID: 7968192257563467294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      iPAD-LOOP002_0: -4828585288503207965
+      iPAD-LOOP002_1: 4048367284070780831
+      iPAD-LOOP002_10: -8292110507416729070
+      iPAD-LOOP002_11: 5449472853762641241
+      iPAD-LOOP002_12: 5376070891519765183
+      iPAD-LOOP002_13: 7228244616281226474
+      iPAD-LOOP002_14: -5717668679210731690
+      iPAD-LOOP002_15: -862790504467374201
+      iPAD-LOOP002_16: 1132604261731546268
+      iPAD-LOOP002_17: 3728385163563035170
+      iPAD-LOOP002_18: 8939125546945114213
+      iPAD-LOOP002_19: 6666374707711040173
+      iPAD-LOOP002_2: -2469177311472983825
+      iPAD-LOOP002_20: 7968192257563467294
+      iPAD-LOOP002_3: 9122418140446022241
+      iPAD-LOOP002_4: -7263737474561179194
+      iPAD-LOOP002_5: -561044238088787427
+      iPAD-LOOP002_6: -3465751464841399404
+      iPAD-LOOP002_7: -8834578341726774843
+      iPAD-LOOP002_8: -7280289907060752861
+      iPAD-LOOP002_9: 5292240392874274849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

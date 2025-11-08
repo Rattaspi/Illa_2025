@@ -4,6 +4,9 @@ using UnityEngine.UI;
 public class ConfettiAnimator : MonoBehaviour {
     [SerializeField] Sprite[] animationSprites;
     [SerializeField] int fps;
+    [SerializeField] bool loops = true;
+    [SerializeField] int loopStartFrame = 0;
+
 
     Image image;
     float frameTime;
@@ -26,7 +29,8 @@ public class ConfettiAnimator : MonoBehaviour {
             counter += Time.deltaTime;
         }
         else {
-            this.enabled = false;
+            if (loops) { currentFrame = loopStartFrame; }
+            else { this.enabled = false; }
         }
     }
 }
