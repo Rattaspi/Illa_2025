@@ -14,12 +14,16 @@ public class AppManager_Final : MonoBehaviour {
 
     bool gameStarted = false;
     bool gameFinished = false;
+    bool revealing = false;
+    bool finishedReveal = false;
+    bool showingFinalLogos = false;
 
     [BetterHeader("TOUCH SCREEN")]
     [SerializeField] GameObject blocker;
     [SerializeField] UnityEngine.Object selectableNumberPrefab;
     [SerializeField] RectTransform selectableNumbersParent;
     [SerializeField] CanvasGroup videoPubliTouchScreenCanvasGroup;
+    [SerializeField] RectTransform lastRevealNumbersParent;
 
     List<RectTransform> selectableNumbers = new List<RectTransform>();
     List<NumberForFinal> orderedSelectedNumbers = new List<NumberForFinal>();
@@ -28,6 +32,7 @@ public class AppManager_Final : MonoBehaviour {
     [SerializeField] RectTransform selectedNumbersParent;
     [SerializeField] CanvasGroup videoPubliLedScreenCanvasGroup;
     [SerializeField] GameObject[] confettiObjects;
+    [SerializeField] CanvasGroup[] finalLogosCanvasGroup;
 
     [Space(), BetterHeader("GIFT SEQUENCE")]
     [SerializeField] RectTransform giftLasso;
@@ -95,8 +100,34 @@ public class AppManager_Final : MonoBehaviour {
             else if (gameStarted && !gameFinished) {
                 blocker.SetActive(false);
             }
-            else if (gameStarted && gameFinished) {
+            else if (gameStarted && gameFinished && !revealing) {
+                revealing = true;
                 FinishGame();
+            }
+            else if (finishedReveal) {
+                LightManager.instance.TriggerIdle();
+                if (showingFinalLogos) {
+                    foreach (GameObject go in confettiObjects) {
+                        go.SetActive(true);
+                    }
+                    Sequence finalLogosSequence = DOTween.Sequence();
+                    foreach(CanvasGroup logo in finalLogosCanvasGroup) {
+                        finalLogosSequence.Append(logo.DOFade(0, 0.25f));
+                    }
+                }
+                else {
+                    Sequence finalLogosSequence = DOTween.Sequence();
+                    foreach (CanvasGroup logo in finalLogosCanvasGroup) {
+                        finalLogosSequence.Append(logo.DOFade(1f, 0.25f));
+                    }
+                    finalLogosSequence.OnComplete(delegate {
+                        foreach (GameObject go in confettiObjects) {
+                            go.SetActive(false);
+                        }
+                    });
+                }
+
+                showingFinalLogos = !showingFinalLogos;
             }
         }
     }
@@ -134,6 +165,7 @@ public class AppManager_Final : MonoBehaviour {
 
     void SelectNumber(int selectedNumber) {
         LightManager.instance.TriggerSelectNumber();
+        AudioManager.instance.PlaySelectNumber();
 
         orderedSelectedNumbers.Add(selectedNumbers[selectedNumber - 1].GetComponent<NumberForFinal>());
 
@@ -216,7 +248,7 @@ public class AppManager_Final : MonoBehaviour {
                 .Join(orderedNumbersForReveal[0].GetComponent<RectTransform>().DOScale(3f, 1f).SetEase(Ease.OutBack));
                 
 
-            yield return new WaitForSeconds(3.5f);
+            yield return new WaitForSeconds(2f);
 
             // Reveal
             if (int.Parse(orderedNumbersForReveal[0].name) == this.winningNumber) {
@@ -241,13 +273,16 @@ public class AppManager_Final : MonoBehaviour {
                     .AppendCallback(() => orderedNumbersForReveal[0].transform.parent = selectedNumbersParent);
             }
 
-            yield return new WaitForSeconds(3f);
+            yield return new WaitForSeconds(0.5f);
 
             orderedNumbersForReveal.RemoveAt(0);
         }
 
         // LAST 2 NUMBERS
         // SPECIAL REVEAL STARTS HERE
+
+        orderedNumbersForReveal[0].transform.parent = orderedNumbersForReveal[0].transform.parent.parent;
+        orderedNumbersForReveal[1].transform.parent = orderedNumbersForReveal[1].transform.parent.parent;
 
         DOTween.Sequence()
             .Append(orderedNumbersForReveal[0].GetComponent<RectTransform>().DOMove(new Vector3(Screen.width / 2, (Screen.height / 4) * 1, 0), 1f))
@@ -326,6 +361,8 @@ public class AppManager_Final : MonoBehaviour {
         orderedNumbersForReveal[1].GetComponent<RectTransform>().DOMove(new Vector3(Screen.width / 2, Screen.height / 2, 0), 0.5f);
         orderedNumbersForReveal[1].GetComponent<RectTransform>().DOScale(8.35f, 1f).SetEase(Ease.OutBack);
         orderedNumbersForReveal[1].transform.parent = selectedNumbersParent.parent;
+
+        finishedReveal = true;
     }
 
     public List<NumberForFinal> Shuffle(List<NumberForFinal> list) {

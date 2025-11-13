@@ -12,6 +12,8 @@ public class NumberForFinal : MonoBehaviour {
     [SerializeField] Color selectedTextColor;
     Color textOriginalColor;
 
+    bool isColored = false;
+
     void Start() {
         textOriginalColor = numberText.color;
     }
@@ -34,7 +36,7 @@ public class NumberForFinal : MonoBehaviour {
     }
 
     public void Deselect() {
-        //print("A");
+        if (isColored) { return; }
         ballImage.DOColor(Color.white, 0.05f);
         numberText.DOColor(textOriginalColor, 0.05f);
     }
@@ -42,6 +44,8 @@ public class NumberForFinal : MonoBehaviour {
     public void SetRed() {
         ballImage.DOColor(Color.red, 0.5f);
         numberText.DOColor(Color.white, 0.5f);
+        
+        isColored = true;
     }
 
     public void SetGreen() {

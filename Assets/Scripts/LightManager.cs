@@ -17,6 +17,7 @@ public class LightManager : MonoBehaviour {
     const string WIN_ANIMTRIGGER = "Win";
     const string LOSE_ANIMTRIGGER = "Lose";
     const string ROULETTE = "Roulette";
+    const string IDLE = "Idle";
 
 
     readonly int[] adresses = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -50,4 +51,5 @@ public class LightManager : MonoBehaviour {
     public void TriggerWin() { dmxSceneAnimator.SetTrigger(WIN_ANIMTRIGGER); }
     public void TriggerLose() { dmxSceneAnimator.SetTrigger(LOSE_ANIMTRIGGER); }
     public void TriggerRoulette() { dmxSceneAnimator.SetTrigger(ROULETTE); }
+    public void TriggerIdle() { dmxSceneAnimator.SetTrigger(IDLE); }
 }
